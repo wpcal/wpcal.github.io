@@ -1,169 +1,264 @@
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+import os
 import json
+import time
+from datetime import datetime, timedelta
+import schedule
+import requests
+from flask import Flask, render_template_string
+from fetch_data import fetch_availability_data, save_availability_to_file
 
-# Define the operating hours for each day of the week
-OPERATING_HOURS = {
-    'Monday': ('6:30 AM', '11:00 PM'),
-    'Tuesday': ('6:30 AM', '11:00 PM'),
-    'Wednesday': ('6:30 AM', '11:00 PM'),
-    'Thursday': ('6:30 AM', '11:00 PM'),
-    'Friday': ('6:30 AM', '9:00 PM'),
-    'Saturday': ('8:00 AM', '8:00 PM'),
-    'Sunday': ('8:00 AM', '9:00 PM')
-}
+# Configuration
+REPO_NAME = "court-availability"
+DATA_FILE = "data/availability.json"
+HTML_FILE = "index.html"
 
-def parse_time(time_str):
-    """
-    Parse time string to datetime object.
-    """
-    time_str = time_str.strip()
-    try:
-        return datetime.strptime(time_str, '%I:%M %p')
-    except ValueError:
-        try:
-            return datetime.strptime(time_str, '%I:%M%p')
-        except ValueError:
-            # Try without leading zero
-            return datetime.strptime('0' + time_str, '%I:%M %p')
-
-def fetch_events(date):
-    """
-    Fetch events from the WPEC Calendar for the given date.
-    """
-    url = 'https://25livepub.collegenet.com/events-calendar/ga/atlanta/emory-wpec/woodpec/woodruff/25live-woodpec-cal'
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        html_content = response.text
+# # Sample data structure - replace with your actual data source
+# def fetch_availability_data():
+#     """
+#     Fetch availability data from your source.
+#     In a real implementation, this would call an API.
+#     """
+#     try:
+#         # Replace this with your actual API call
+#         # response = requests.get("https://your-api-endpoint.com/availability")
+#         # if response.status_code == 200:
+#         #     return response.json()
         
-        soup = BeautifulSoup(html_content, 'html.parser')
+#         # For demo purposes, we'll return mock data
+#         mock_data = {}
+#         today = datetime.now()
         
-        events = []
-        for event in soup.find_all('div', class_='vevent'):
-            dtstart = event.find('abbr', class_='dtstart')
-            dtend = event.find('abbr', class_='dtend')
+#         for i in range(7):
+#             date = today + timedelta(days=i)
+#             date_str = date.strftime("%Y-%m-%d")
             
-            if dtstart and dtend:
-                event_datetime_str = dtstart.text.strip()
-                event_end_time_str = dtend.text.strip()
-                
-                if date.strftime('%B') in event_datetime_str and str(date.day) in event_datetime_str:
-                    location_elem = event.find('span', class_='location')
-                    if location_elem:
-                        location_text = location_elem.text
-                        
-                        if 'Court #3' in location_text or 'Court 3' in location_text:
-                            start_time = event_datetime_str.split(',')[-1].strip()
-                            end_time = event_end_time_str.rstrip('.')
-                            events.append((start_time, end_time))
-        
-        return events
-    except requests.RequestException as e:
-        print(f"Error fetching event data: {e}")
-        return []
+#             # Generate some random availability slots
+#             available_slots = []
+#             start_hour = 8
+#             for hour in range(start_hour, 22, 2):
+#                 # Randomly decide if slot is available (70% chance)
+#                 if hash(f"{date_str}-{hour}") % 10 < 7:
+#                     available_slots.append(f"{hour}:00-{hour+2}:00")
+            
+#             mock_data[date_str] = available_slots
+            
+#         return mock_data
+#     except Exception as e:
+#         print(f"Error fetching data: {e}")
+#         return {}
 
-def get_available_times(date):
-    """
-    Get available time slots for Court #3 on the given date.
-    """
-    day_name = date.strftime('%A')
-    open_time_str, close_time_str = OPERATING_HOURS[day_name]
-    open_time = datetime.combine(date, parse_time(open_time_str).time())
-    close_time = datetime.combine(date, parse_time(close_time_str).time())
+# def save_data(data):
+#     """Save the fetched data to a JSON file."""
+#     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
+#     with open(DATA_FILE, 'w') as f:
+#         json.dump({
+#             "availability": data,
+#             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+#         }, f)
+#     print(f"Data saved at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-    events = fetch_events(date)
-    
-    if not events:
-        # If no events found, create 2-hour slots for the entire day
-        available_times = []
-        current = open_time
-        while current + timedelta(hours=2) <= close_time:
-            available_times.append((current, current + timedelta(hours=2)))
-            current += timedelta(hours=2)
-        return available_times
-    
-    # Parse the event times
-    parsed_events = []
-    for start, end in events:
-        try:
-            start_dt = datetime.combine(date, parse_time(start).time())
-            end_dt = datetime.combine(date, parse_time(end).time())
-            parsed_events.append((start_dt, end_dt))
-        except ValueError as e:
-            print(f"Error parsing event time: {start} - {end}: {e}")
-    
-    parsed_events.sort()
-
-    # Find gaps between events and convert to 2-hour slots
-    available_times = []
-    current_time = open_time
-
-    for start, end in parsed_events:
-        # Check if there's at least 2 hours before the next event
-        while current_time + timedelta(hours=2) <= start:
-            available_times.append((current_time, current_time + timedelta(hours=2)))
-            current_time += timedelta(hours=2)
-        current_time = max(current_time, end)
-
-    # Check for availability after the last event
-    while current_time + timedelta(hours=2) <= close_time:
-        available_times.append((current_time, current_time + timedelta(hours=2)))
-        current_time += timedelta(hours=2)
-
-    return available_times
-
-def fetch_availability_data():
-    """
-    Fetch availability data for the next 7 days and format it as a JSON structure.
-    Returns a dictionary with dates as keys and available time slots as values.
-    """
+def generate_html():
+    """Generate the HTML page using the saved data."""
     try:
-        availability_data = {}
-        today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        with open(DATA_FILE, 'r') as f:
+            data = json.load(f)
         
+        availability = data["availability"]
+        last_updated = data["last_updated"]
+        
+        # Generate dates for the next 7 days
+        today = datetime.now()
+        dates = []
         for i in range(7):
             date = today + timedelta(days=i)
             date_str = date.strftime("%Y-%m-%d")
-            
-            available_slots = []
-            available_times = get_available_times(date)
-            
-            for start, end in available_times:
-                slot = f"{start.strftime('%H:%M')}-{end.strftime('%H:%M')}"
-                available_slots.append(slot)
-            
-            availability_data[date_str] = available_slots
+            date_display = date.strftime("%A %m-%d-%Y")
+            dates.append({
+                "date_str": date_str,
+                "display": date_display,
+                "slots": availability.get(date_str, [])
+            })
         
-        result = {
-            "availability": availability_data,
-            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        }
+        # HTML template
+        html_template = """
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="refresh" content="900"> <!-- Refresh every 15 minutes -->
+            <title>Woodpec PE Court #3 Availability</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    max-width: 1000px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    line-height: 1.6;
+                }
+                h1 {
+                    text-align: center;
+                    color: #2c3e50;
+                }
+                .updated {
+                    text-align: center;
+                    font-style: italic;
+                    color: #7f8c8d;
+                    margin-bottom: 20px;
+                }
+                .day-container {
+                    margin-bottom: 30px;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    padding: 15px;
+                }
+                h2 {
+                    margin-top: 0;
+                    color: #3498db;
+                    border-bottom: 1px solid #eee;
+                    padding-bottom: 10px;
+                }
+                .slots {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                }
+                .slot {
+                    background-color: #2ecc71;
+                    color: white;
+                    padding: 8px 12px;
+                    border-radius: 4px;
+                    display: inline-block;
+                }
+                .no-slots {
+                    color: #e74c3c;
+                    font-style: italic;
+                }
+                @media (max-width: 600px) {
+                    body {
+                        padding: 10px;
+                    }
+                    .day-container {
+                        padding: 10px;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Woodpec PE Court #3 Availability</h1>
+            <p class="updated">Last updated: {{ last_updated }}</p>
+            
+            {% for day in dates %}
+            <div class="day-container">
+                <h2>{{ day.display }}</h2>
+                <div class="slots">
+                    {% if day.slots %}
+                        {% for slot in day.slots %}
+                            <div class="slot">{{ slot }}</div>
+                        {% endfor %}
+                    {% else %}
+                        <p class="no-slots">No available slots</p>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+            <footer class="byline">Coded by Claude 3.7, prompted by <a href="https://toan-vt.github.io" target="_blank">Toan Tran</a> | I am not responsible for any errors in court availability information :) | Created on a random boring day :) March 3, 2025 | </footer>
+            <script>
+                // This script will update the page every 15 minutes
+                setTimeout(function() {
+                    window.location.reload();
+                }, 15 * 60 * 1000);
+            </script>
+        </body>
+        </html>
+        """
         
-        return result
+        # Render the template with the data
+        from jinja2 import Template
+        template = Template(html_template)
+        rendered_html = template.render(dates=dates, last_updated=last_updated)
+        
+        # Write the HTML to file
+        with open(HTML_FILE, 'w') as f:
+            f.write(rendered_html)
+            
+        print(f"HTML generated at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        
     except Exception as e:
-        print(f"Error generating availability data: {e}")
-        return {"availability": {}, "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+        print(f"Error generating HTML: {e}")
 
-def save_availability_to_file(filename="data/availability.json"):
-    """
-    Save the availability data to a JSON file.
-    """
-    try:
-        data = fetch_availability_data()
-        with open(filename, 'w') as f:
-            json.dump(data, f)
-        print(f"Availability data saved to {filename}")
-        return data
-    except Exception as e:
-        print(f"Error saving availability data: {e}")
-        return None
-
-if __name__ == '__main__':
-    # Example usage:
+def update_data():
+    """Fetch new data and update the website."""
     data = fetch_availability_data()
-    print(json.dumps(data, indent=2))
-    
-    # Uncomment to save to file:
+    # save_data(data)
     save_availability_to_file()
+    generate_html()
+
+# GitHub Pages deployment function (run separately or as needed)
+def setup_github_pages():
+    """
+    Sets up GitHub Pages repository for deployment.
+    This would typically be done once manually.
+    """
+    commands = [
+        f"git init",
+        f"git add {HTML_FILE} {DATA_FILE}",
+        f'git commit -m "Update court availability"',
+        f"git branch -M main",
+        f"git remote add origin https://github.com/yourusername/{REPO_NAME}.git",
+        f"git push -u origin main"
+    ]
+    
+    print("GitHub Pages setup commands:")
+    for cmd in commands:
+        print(f"  {cmd}")
+
+# GitHub Pages update function (for scheduled updates)
+def update_github_pages():
+    """
+    Updates the GitHub Pages repository with new data.
+    This can be scheduled to run after each data update.
+    """
+    commands = [
+        f"git add {HTML_FILE} {DATA_FILE}",
+        f'git commit -m "Update court availability {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}"',
+        f"git push origin main"
+    ]
+    
+    print("Running GitHub Pages update:")
+    for cmd in commands:
+        print(f"  {cmd}")
+        # In a real implementation, you would use subprocess to run these commands
+        # import subprocess
+        # subprocess.run(cmd, shell=True)
+
+# Web server for local testing
+def run_local_server():
+    app = Flask(__name__)
+    
+    @app.route('/')
+    def home():
+        with open(HTML_FILE, 'r') as f:
+            return f.read()
+    
+    app.run(debug=True, port=8000)
+
+# Main execution
+if __name__ == "__main__":
+    # Initial data fetch and page generation
+    update_data()
+    
+    # Schedule regular updates every 15 minutes
+    schedule.every(15).minutes.do(update_data)
+    
+    # Optional: Schedule GitHub Pages updates
+    schedule.every(15).minutes.do(update_github_pages)
+    
+    # Run scheduler in a loop
+    print("Starting scheduler. Press Ctrl+C to exit.")
+    try:
+        while True:
+            schedule.run_pending()
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("Scheduler stopped.")
