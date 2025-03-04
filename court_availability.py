@@ -145,9 +145,12 @@ def update_data():
 
 def commit_and_push_changes():
     """Commit and push changes to GitHub."""
-    subprocess.run(["git", "add", HTML_FILE, DATA_FILE])
-    subprocess.run(["git", "commit", "-m", f"Update court availability {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"])
-    subprocess.run(["git", "push", "origin", "main"])
+    print("Staging files...")
+    subprocess.run(["git", "add", HTML_FILE, DATA_FILE], check=True)
+    print("Committing changes...")
+    subprocess.run(["git", "commit", "-m", f"Update court availability {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"], check=True)
+    print("Pushing changes...")
+    subprocess.run(["git", "push", "origin", "main"], check=True)
 
 if __name__ == "__main__":
     # Initial data fetch and page generation
