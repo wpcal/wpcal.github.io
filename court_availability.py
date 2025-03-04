@@ -2,60 +2,15 @@ import os
 import json
 import time
 from datetime import datetime, timedelta
-import schedule
 import requests
 from flask import Flask, render_template_string
 from fetch_data import fetch_availability_data, save_availability_to_file
+import subprocess
 
 # Configuration
 REPO_NAME = "court-availability"
 DATA_FILE = "data/availability.json"
 HTML_FILE = "index.html"
-
-# # Sample data structure - replace with your actual data source
-# def fetch_availability_data():
-#     """
-#     Fetch availability data from your source.
-#     In a real implementation, this would call an API.
-#     """
-#     try:
-#         # Replace this with your actual API call
-#         # response = requests.get("https://your-api-endpoint.com/availability")
-#         # if response.status_code == 200:
-#         #     return response.json()
-        
-#         # For demo purposes, we'll return mock data
-#         mock_data = {}
-#         today = datetime.now()
-        
-#         for i in range(7):
-#             date = today + timedelta(days=i)
-#             date_str = date.strftime("%Y-%m-%d")
-            
-#             # Generate some random availability slots
-#             available_slots = []
-#             start_hour = 8
-#             for hour in range(start_hour, 22, 2):
-#                 # Randomly decide if slot is available (70% chance)
-#                 if hash(f"{date_str}-{hour}") % 10 < 7:
-#                     available_slots.append(f"{hour}:00-{hour+2}:00")
-            
-#             mock_data[date_str] = available_slots
-            
-#         return mock_data
-#     except Exception as e:
-#         print(f"Error fetching data: {e}")
-#         return {}
-
-# def save_data(data):
-#     """Save the fetched data to a JSON file."""
-#     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
-#     with open(DATA_FILE, 'w') as f:
-#         json.dump({
-#             "availability": data,
-#             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-#         }, f)
-#     print(f"Data saved at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
 def generate_html():
     """Generate the HTML page using the saved data."""
@@ -163,12 +118,6 @@ def generate_html():
             </div>
             {% endfor %}
             <footer class="byline">Coded by Claude 3.7, prompted by <a href="https://toan-vt.github.io" target="_blank">Toan Tran</a> | I am not responsible for any errors in court availability information :) | Created on a random boring day :) March 3, 2025 | </footer>
-            <script>
-                // This script will update the page every 15 minutes
-                setTimeout(function() {
-                    window.location.reload();
-                }, 15 * 60 * 1000);
-            </script>
         </body>
         </html>
         """
@@ -190,75 +139,16 @@ def generate_html():
 def update_data():
     """Fetch new data and update the website."""
     data = fetch_availability_data()
-    # save_data(data)
-    save_availability_to_file()
+    save_availability_to_file(data)
     generate_html()
+    commit_and_push_changes()
 
-# GitHub Pages deployment function (run separately or as needed)
-def setup_github_pages():
-    """
-    Sets up GitHub Pages repository for deployment.
-    This would typically be done once manually.
-    """
-    commands = [
-        f"git init",
-        f"git add {HTML_FILE} {DATA_FILE}",
-        f'git commit -m "Update court availability"',
-        f"git branch -M main",
-        f"git remote add origin https://github.com/yourusername/{REPO_NAME}.git",
-        f"git push -u origin main"
-    ]
-    
-    print("GitHub Pages setup commands:")
-    for cmd in commands:
-        print(f"  {cmd}")
+def commit_and_push_changes():
+    """Commit and push changes to GitHub."""
+    subprocess.run(["git", "add", HTML_FILE, DATA_FILE])
+    subprocess.run(["git", "commit", "-m", f"Update court availability {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"])
+    subprocess.run(["git", "push", "origin", "main"])
 
-# GitHub Pages update function (for scheduled updates)
-def update_github_pages():
-    """
-    Updates the GitHub Pages repository with new data.
-    This can be scheduled to run after each data update.
-    """
-    commands = [
-        f"git add {HTML_FILE} {DATA_FILE}",
-        f'git commit -m "Update court availability {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}"',
-        f"git push origin main"
-    ]
-    
-    print("Running GitHub Pages update:")
-    for cmd in commands:
-        print(f"  {cmd}")
-        # In a real implementation, you would use subprocess to run these commands
-        # import subprocess
-        # subprocess.run(cmd, shell=True)
-
-# Web server for local testing
-def run_local_server():
-    app = Flask(__name__)
-    
-    @app.route('/')
-    def home():
-        with open(HTML_FILE, 'r') as f:
-            return f.read()
-    
-    app.run(debug=True, port=8000)
-
-# Main execution
 if __name__ == "__main__":
     # Initial data fetch and page generation
     update_data()
-    
-    # Schedule regular updates every 15 minutes
-    schedule.every(15).minutes.do(update_data)
-    
-    # Optional: Schedule GitHub Pages updates
-    schedule.every(15).minutes.do(update_github_pages)
-    
-    # Run scheduler in a loop
-    print("Starting scheduler. Press Ctrl+C to exit.")
-    try:
-        while True:
-            schedule.run_pending()
-            time.sleep(1)
-    except KeyboardInterrupt:
-        print("Scheduler stopped.")
