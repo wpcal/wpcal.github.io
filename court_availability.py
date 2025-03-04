@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timedelta
 import requests
 from flask import Flask, render_template_string
-from fetch_data import fetch_availability_data, save_availability_to_file
+from fetch_data import save_availability_to_file
 import subprocess
 
 # Configuration
@@ -138,19 +138,15 @@ def generate_html():
 
 def update_data():
     """Fetch new data and update the website."""
-    data = fetch_availability_data()
-    save_availability_to_file(data)
+    save_availability_to_file()
     generate_html()
     commit_and_push_changes()
 
 def commit_and_push_changes():
     """Commit and push changes to GitHub."""
-    print("Staging files...")
-    subprocess.run(["git", "add", HTML_FILE, DATA_FILE], check=True)
-    print("Committing changes...")
-    subprocess.run(["git", "commit", "-m", f"Update court availability {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"], check=True)
-    print("Pushing changes...")
-    subprocess.run(["git", "push", "origin", "main"], check=True)
+    subprocess.run(["git", "add", HTML_FILE, DATA_FILE])
+    subprocess.run(["git", "commit", "-m", f"Update court availability {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"])
+    subprocess.run(["git", "push", "origin", "main"])
 
 if __name__ == "__main__":
     # Initial data fetch and page generation
