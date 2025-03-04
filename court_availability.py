@@ -23,10 +23,10 @@ def generate_html():
         availability = data["availability"]
         last_updated = data["last_updated"]
         
-        # Generate dates for the next 7 days
+        # Generate dates for the next 4 days
         today = datetime.now(timezone)
         dates = []
-        for i in range(7):
+        for i in range(4):
             date = today + timedelta(days=i)
             date_str = date.strftime("%Y-%m-%d")
             date_display = date.strftime("%A %m-%d-%Y")
