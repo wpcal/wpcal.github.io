@@ -51,17 +51,45 @@ def fetch_events(date):
             if dtstart and dtend:
                 event_datetime_str = dtstart.text.strip()
                 event_end_time_str = dtend.text.strip()
-                
-                if date.strftime('%B') in event_datetime_str and str(date.day) in event_datetime_str:
+                # check if any &nbsp; in the event datetime string
+                if '\xa0' in event_datetime_str:
+                    event_datetime_str = event_datetime_str.replace('\xa0', ' ')
+                if '\xa0' in event_end_time_str:
+                    event_end_time_str = event_end_time_str.replace('\xa0', ' ')
+
+                month_day_str = f"{date.strftime('%B')} {str(date.day)}"
+                if month_day_str in event_datetime_str:
                     location_elem = event.find('span', class_='location')
                     if location_elem:
                         location_text = location_elem.text
-                        
-                        if 'Court #3' in location_text or 'Court 3' in location_text:
+                        description = event.find('span', class_='description')
+                        if ('Court #3' in location_text) or ((description) and ('Pregame Meal' in description.text) and ('Woodruff PE Center Large class room' in location_text)):                            
+                            # print(f"A. Time: {event_datetime_str} - {event_end_time_str}, Event: {description.text}, Location: {location_text}")
                             start_time = event_datetime_str.split(',')[-1].strip()
                             end_time = event_end_time_str.rstrip('.')
                             events.append((start_time, end_time))
-        
+            elif (dtstart) and (dtend == None): # if only date, e.g, Friday, March 7, 2025 but no time => reserve all day
+                event_datetime_str = dtstart.text.strip()
+                if '\xa0' in event_datetime_str:
+                    event_datetime_str = event_datetime_str.replace('\xa0', ' ')
+
+                month_day_str = f"{date.strftime('%B')} {str(date.day)}"
+                if month_day_str in event_datetime_str:
+                    location_elem = event.find('span', class_='location')
+                    if location_elem:
+                        location_text = location_elem.text
+                        description = event.find('span', class_='description')
+                        if ('Court #3' in location_text) or ((description) and ('Pregame Meal' in description.text) and ('Woodruff PE Center Large class room' in location_text)):        
+                            # print(f"B. Time: {event_datetime_str}, Event: {description.text}, Location: {location_text}")
+                            start_time = OPERATING_HOURS[date.strftime('%A')][0]
+                            end_time = OPERATING_HOURS[date.strftime('%A')][1]
+                            events.append((start_time, end_time))
+
+        print(f"Date: {date.strftime('%Y-%m-%d')}")
+        print("\tEvents found:")
+        for start, end in events:
+            print(f"\t\t{start} - {end}")
+        print("\n\n")
         return events
     except requests.RequestException as e:
         print(f"Error fetching event data: {e}")
@@ -114,7 +142,7 @@ def get_available_times(date):
 
 def fetch_availability_data():
     """
-    Fetch availability data for the next 4 days and format it as a JSON structure.
+    Fetch availability data for the next 7 days and format it as a JSON structure.
     Returns a dictionary with dates as keys and available time slots as values.
     """
     try:
