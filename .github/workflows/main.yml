@@ -26,7 +26,7 @@ jobs:
 
     - name: Run Python script
       run: |
-        python update_court_availability.py
+        python court_availability.py
 
     - name: Push updates to GitHub
       env:
