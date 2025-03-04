@@ -2,11 +2,12 @@ name: Update Court Availability
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # This cron expression runs the workflow every 15 minutes
+    - cron: '*/5 * * * *' # This cron expression runs the workflow every 5 minutes
   push:
     branches:
       - main
-      
+  workflow_dispatch:  # Enables manual trigger
+  
 permissions:
   contents: write  # Ensure the token has write permissions
 
