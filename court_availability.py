@@ -44,7 +44,7 @@ def generate_html():
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="refresh" content="900"> <!-- Refresh every 15 minutes -->
-            <title>WoodPEC PE Center Court #3 Availabilities</title>
+            <title>WoodPEC PE Center Court #3 Open Slots</title>
             <style>
                 body {
                     font-family: Arial, sans-serif;
@@ -102,7 +102,7 @@ def generate_html():
             </style>
         </head>
         <body>
-            <h1>WoodPEC PE Center Court #3 Availabilities</h1>
+            <h1>WoodPEC PE Center Court #3 Open Slots</h1>
             <p class="updated">Last updated: {{ last_updated }}</p>
             
             {% for day in dates %}
