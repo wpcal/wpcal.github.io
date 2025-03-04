@@ -67,6 +67,7 @@ def fetch_events(date):
 def get_available_times(date):
     """
     Get available time slots for Court #3 on the given date.
+    Merges overlapping or adjacent time slots.
     """
     day_name = date.strftime('%A')
     open_time_str, close_time_str = OPERATING_HOURS[day_name]
@@ -76,13 +77,8 @@ def get_available_times(date):
     events = fetch_events(date)
     
     if not events:
-        # If no events found, create 2-hour slots for the entire day
-        available_times = []
-        current = open_time
-        while current + timedelta(hours=2) <= close_time:
-            available_times.append((current, current + timedelta(hours=2)))
-            current += timedelta(hours=2)
-        return available_times
+        # If no events found, the entire time from open to close is available
+        return [(open_time, close_time)]
     
     # Parse the event times
     parsed_events = []
@@ -96,21 +92,20 @@ def get_available_times(date):
     
     parsed_events.sort()
 
-    # Find gaps between events and convert to 2-hour slots
+    # Merging available time slots by checking gaps between events
     available_times = []
     current_time = open_time
 
     for start, end in parsed_events:
-        # Check if there's at least 2 hours before the next event
-        while current_time + timedelta(hours=2) <= start:
-            available_times.append((current_time, current_time + timedelta(hours=2)))
-            current_time += timedelta(hours=2)
+        # If there's time between the current_time and the event, add it to available_times
+        if current_time + timedelta(minutes=1) < start:
+            available_times.append((current_time, start))
+        # Set current_time to the end of the last event
         current_time = max(current_time, end)
 
-    # Check for availability after the last event
-    while current_time + timedelta(hours=2) <= close_time:
-        available_times.append((current_time, current_time + timedelta(hours=2)))
-        current_time += timedelta(hours=2)
+    # Check if there is available time after the last event until closing time
+    if current_time < close_time:
+        available_times.append((current_time, close_time))
 
     return available_times
 
@@ -160,10 +155,10 @@ def save_availability_to_file(filename="data/availability.json"):
         print(f"Error saving availability data: {e}")
         return None
 
-if __name__ == '__main__':
-    # Example usage:
-    data = fetch_availability_data()
-    print(json.dumps(data, indent=2))
+# if __name__ == '__main__':
+#     # Example usage:
+#     data = fetch_availability_data()
+#     print(json.dumps(data, indent=2))
     
-    # Uncomment to save to file:
-    save_availability_to_file()
+#     # Uncomment to save to file:
+#     save_availability_to_file()
