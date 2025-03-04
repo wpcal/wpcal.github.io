@@ -6,11 +6,13 @@ import requests
 from flask import Flask, render_template_string
 from fetch_data import save_availability_to_file
 import subprocess
+import pytz
 
 # Configuration
 REPO_NAME = "court-availability"
 DATA_FILE = "data/availability.json"
 HTML_FILE = "index.html"
+timezone = pytz.timezone('US/Eastern')
 
 def generate_html():
     """Generate the HTML page using the saved data."""
@@ -22,7 +24,7 @@ def generate_html():
         last_updated = data["last_updated"]
         
         # Generate dates for the next 7 days
-        today = datetime.now()
+        today = datetime.now(timezone)
         dates = []
         for i in range(7):
             date = today + timedelta(days=i)
@@ -117,7 +119,7 @@ def generate_html():
                 </div>
             </div>
             {% endfor %}
-            <footer class="byline">Coded by Claude 3.7 & GPT4, prompted <a href="https://toan-vt.github.io" target="_blank">Toan Tran</a>, deployed by Github | I am not responsible for any errors in court availability information :) | Created in a random boring evening :) March 3, 2025 </footer>
+            <footer class="byline">Coded by Claude 3.7 & GPT4, prompted by <a href="https://toan-vt.github.io" target="_blank">Toan Tran</a> | I am not responsible for any errors in court availability information :) | Created on a random boring day :) March 3, 2025 | </footer>
         </body>
         </html>
         """
@@ -131,7 +133,7 @@ def generate_html():
         with open(HTML_FILE, 'w') as f:
             f.write(rendered_html)
             
-        print(f"HTML generated at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"HTML generated at {datetime.now(timezone).strftime('%Y-%m-%d %H:%M:%S')}")
         
     except Exception as e:
         print(f"Error generating HTML: {e}")
@@ -145,7 +147,7 @@ def update_data():
 def commit_and_push_changes():
     """Commit and push changes to GitHub."""
     subprocess.run(["git", "add", HTML_FILE, DATA_FILE])
-    subprocess.run(["git", "commit", "-m", f"Update court availability {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"])
+    subprocess.run(["git", "commit", "-m", f"Update court availability {datetime.now(timezone).strftime('%Y-%m-%d %H:%M:%S')}"])
     subprocess.run(["git", "push", "origin", "main"])
 
 if __name__ == "__main__":
