@@ -2,6 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import json
+import pytz
+
+timezone = pytz.timezone('US/Eastern')
 
 # Define the operating hours for each day of the week
 OPERATING_HOURS = {
@@ -116,7 +119,7 @@ def fetch_availability_data():
     """
     try:
         availability_data = {}
-        today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        today = datetime.now(timezone).replace(hour=0, minute=0, second=0, microsecond=0)
         
         for i in range(7):
             date = today + timedelta(days=i)
@@ -133,13 +136,13 @@ def fetch_availability_data():
         
         result = {
             "availability": availability_data,
-            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            "last_updated": datetime.now(timezone).strftime("%Y-%m-%d %H:%M:%S")
         }
         
         return result
     except Exception as e:
         print(f"Error generating availability data: {e}")
-        return {"availability": {}, "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+        return {"availability": {}, "last_updated": datetime.now(timezone).strftime("%Y-%m-%d %H:%M:%S")}
 
 def save_availability_to_file(filename="data/availability.json"):
     """
