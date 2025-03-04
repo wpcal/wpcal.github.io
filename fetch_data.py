@@ -114,14 +114,14 @@ def get_available_times(date):
 
 def fetch_availability_data():
     """
-    Fetch availability data for the next 7 days and format it as a JSON structure.
+    Fetch availability data for the next 4 days and format it as a JSON structure.
     Returns a dictionary with dates as keys and available time slots as values.
     """
     try:
         availability_data = {}
         today = datetime.now(timezone).replace(hour=0, minute=0, second=0, microsecond=0)
         
-        for i in range(7):
+        for i in range(4):
             date = today + timedelta(days=i)
             date_str = date.strftime("%Y-%m-%d")
             
