@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timedelta
 import requests
 from flask import Flask, render_template_string
-from fetch_data import save_availability_to_file
+# from fetch_data import save_availability_to_file
 import subprocess
 import pytz
 
@@ -23,18 +23,34 @@ def generate_html():
         availability = data["availability"]
         last_updated = data["last_updated"]
         
-        # Generate dates for the next 4 days
+        all_date_strs = data["availability"].keys() # this format: 2025-03-22
         today = datetime.now(timezone)
-        dates = []
-        for i in range(4):
+        dates_str = []
+        for i in range(7):
             date = today + timedelta(days=i)
             date_str = date.strftime("%Y-%m-%d")
+            dates_str.append(date_str)
+
+        dates = []
+        for date_str in dates_str:
+            date = datetime.strptime(date_str, "%Y-%m-%d")
             date_display = date.strftime("%A %m-%d-%Y")
-            dates.append({
-                "date_str": date_str,
-                "display": date_display,
-                "slots": availability.get(date_str, [])
-            })
+            
+            if date_str not in all_date_strs:
+                # Add the date with a special flag indicating no data available
+                dates.append({
+                    "date_str": date_str,
+                    "display": date_display,
+                    "slots": [],
+                    "no_data": True
+                })
+            else:
+                dates.append({
+                    "date_str": date_str,
+                    "display": date_display,
+                    "slots": availability.get(date_str, []),
+                    "no_data": False
+                })
         
         # HTML template
         html_template = """
@@ -44,7 +60,7 @@ def generate_html():
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="refresh" content="900"> <!-- Refresh every 15 minutes -->
-            <title>WoodPEC PE Center Court #3 Open Slots</title>
+            <title>Woodpec PE Court #3 Availability</title>
             <style>
                 body {
                     font-family: Arial, sans-serif;
@@ -91,6 +107,10 @@ def generate_html():
                     color: #e74c3c;
                     font-style: italic;
                 }
+                .no-data {
+                    color: #f39c12;
+                    font-style: italic;
+                }
                 @media (max-width: 600px) {
                     body {
                         padding: 10px;
@@ -102,14 +122,16 @@ def generate_html():
             </style>
         </head>
         <body>
-            <h1>WoodPEC PE Center Court #3 Open Slots</h1>
+            <h1>Woodpec PE Court #3 Availability</h1>
             <p class="updated">Last updated: {{ last_updated }}</p>
             
             {% for day in dates %}
             <div class="day-container">
                 <h2>{{ day.display }}</h2>
                 <div class="slots">
-                    {% if day.slots %}
+                    {% if day.no_data %}
+                        <p class="no-data">No data available</p>
+                    {% elif day.slots %}
                         {% for slot in day.slots %}
                             <div class="slot">{{ slot }}</div>
                         {% endfor %}
@@ -140,7 +162,7 @@ def generate_html():
 
 def update_data():
     """Fetch new data and update the website."""
-    save_availability_to_file()
+    # save_availability_to_file()
     generate_html()
     commit_and_push_changes()
 
