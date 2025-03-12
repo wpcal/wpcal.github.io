@@ -73,6 +73,10 @@ def generate_html():
                     text-align: center;
                     color: #2c3e50;
                 }
+                h3 {
+                    text-align: center;
+                    color: #2c3e50;
+                }
                 .updated {
                     text-align: center;
                     font-style: italic;
@@ -123,7 +127,7 @@ def generate_html():
         </head>
         <body>
             <h1>Woodpec PE Center Court #3 Availability</h1>
-            <h3> Badminton Courts (Emory University) <h3>
+            <h3> Badminton Courts at Emory University <h3>
             <p class="updated">Last updated: {{ last_updated }}</p>
             
             {% for day in dates %}
