@@ -122,7 +122,8 @@ def generate_html():
             </style>
         </head>
         <body>
-            <h1>Woodpec PE Court #3 Availability</h1>
+            <h1>Woodpec PE Center Court #3 Availability</h1>
+            <h3> Badminton Courts (Emory University) <h3>
             <p class="updated">Last updated: {{ last_updated }}</p>
             
             {% for day in dates %}
@@ -141,7 +142,7 @@ def generate_html():
                 </div>
             </div>
             {% endfor %}
-            <footer class="byline">Coded by Claude 3.7 & GPT4, prompted by <a href="https://toan-vt.github.io" target="_blank">Toan Tran</a> | I am not responsible for any errors in court availability information :) | Created on a random boring day :) March 3, 2025 | </footer>
+            <footer class="byline">Coded by Claude 3.7 & GPT4, prompted & put the together by <a href="https://toan-vt.github.io" target="_blank">Toan Tran</a> | I am not responsible for any errors in court availability information :) | Created on a random boring day :) March 3, 2025 | </footer>
         </body>
         </html>
         """
