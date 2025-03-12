@@ -146,7 +146,7 @@ def generate_html():
                 </div>
             </div>
             {% endfor %}
-            <footer class="byline">Coded by Claude 3.7 & GPT4, prompted & put the together by <a href="https://toan-vt.github.io" target="_blank">Toan Tran</a> | I am not responsible for any errors in court availability information :) | Created on a random boring day :) March 3, 2025 | </footer>
+            <footer class="byline">Coded by Claude 3.7 & GPT4, prompted & put them together by <a href="https://toan-vt.github.io" target="_blank">Toan Tran</a> | I am not responsible for any errors in court availability information :) | Created in a random boring evening :) on March 3, 2025 </footer>
         </body>
         </html>
         """
