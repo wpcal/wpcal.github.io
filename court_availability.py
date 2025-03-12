@@ -127,7 +127,7 @@ def generate_html():
         </head>
         <body>
             <h1>Woodruff PE Center Court #3 Availability</h1>
-            <h3> Badminton Courts at WoodPec, Emory University <h3>
+            <h3> Badminton Courts at WoodPEC, Emory University <h3>
             <p class="updated">Last updated: {{ last_updated }}</p>
             
             {% for day in dates %}
