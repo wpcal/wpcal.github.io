@@ -1,11 +1,5 @@
 [
   {
-    "title": "PE 194 1 3285",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222917561",
-    "event_id": "1222917561",
-    "description": "Wednesday, March 5, 2025, 10 - 11:15am Woodruff PE Center Aerobics Room"
-  },
-  {
     "title": "PE 167 3 3248",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222893506",
     "event_id": "1222893506",
@@ -2298,10 +2292,10 @@
     "description": "Friday, March 21, 2025, 11:30am - 12:20pm Woodruff PE Center Cycling Studio"
   },
   {
-    "title": "Emory Student Dance Rehearsals",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1241397127",
-    "event_id": "1241397127",
-    "description": "Saturday, March 22, 2025, 9am - 1:45pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+    "title": "CS Men's Ultimate Scrimmage",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1255395234",
+    "event_id": "1255395234",
+    "description": "Saturday, March 22, 2025, 8:45am - 4:30pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2"
   },
   {
     "title": "Men's Tennis Practice",
@@ -2340,10 +2334,10 @@
     "description": "Friday, March 21, 2025, 11:30am - 12:45pm Woodruff PE Center - Dance Studio"
   },
   {
-    "title": "Agnition Dance Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1242195742",
-    "event_id": "1242195742",
-    "description": "Saturday, March 22, 2025, 9am - 12pm Woodruff PE Center Aerobics Room"
+    "title": "Emory Student Dance Rehearsals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1241397127",
+    "event_id": "1241397127",
+    "description": "Saturday, March 22, 2025, 9am - 1:45pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
     "title": "Water Polo Practice (IMSC)",
@@ -2382,10 +2376,10 @@
     "description": "Friday, March 21, 2025, 11:30am - 1:30pm Woodruff PE Center Aerobics Room"
   },
   {
-    "title": "Spin (Cecilia)",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1229841646",
-    "event_id": "1229841646",
-    "description": "Saturday, March 22, 2025, 10:30 - 11:30am Woodruff PE Center Cycling Studio"
+    "title": "Agnition Dance Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1242195742",
+    "event_id": "1242195742",
+    "description": "Saturday, March 22, 2025, 9am - 12pm Woodruff PE Center Aerobics Room"
   },
   {
     "title": "Emory Shotokan Karate Practice",
@@ -2416,5 +2410,17 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1233182555",
     "event_id": "1233182555",
     "description": "Thursday, March 20, 2025, 11am - 12pm Woodruff PE Center 2nd conference room"
+  },
+  {
+    "title": "Track & Field Meet",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1227975667",
+    "event_id": "1227975667",
+    "description": "Friday, March 21, 2025, 12 - 8pm Woodruff PE Center Mcdonough Field"
+  },
+  {
+    "title": "CS Men's Soccer Single Game",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1239565623",
+    "event_id": "1239565623",
+    "description": "Saturday, March 22, 2025, 10am - 3pm Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
   }
 ]
