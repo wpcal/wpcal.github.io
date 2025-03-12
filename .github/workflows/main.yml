@@ -28,7 +28,12 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Run Python script
+    - name: Fetch data
+      run: |
+        python fetch_data.py
+        python data-processing.py
+
+    - name: Generate html
       run: |
         python court_availability.py
 
