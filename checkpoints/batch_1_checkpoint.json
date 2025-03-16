@@ -1458,10 +1458,10 @@
     "description": "Friday, March 14, 2025, 10 - 11am Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
-    "title": "EnerVibes Beat-BOXING (Tani)",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1252055583",
-    "event_id": "1252055583",
-    "description": "Saturday, March 15, 2025, 10:30 - 11:30am Woodruff PE Center Aerobics Room"
+    "title": "Emory Dance Company Course",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235867419",
+    "event_id": "1235867419",
+    "description": "Saturday, March 15, 2025, 11am - 4pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "Strong Nation (Lupe)",
@@ -1498,12 +1498,6 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1226151222",
     "event_id": "1226151222",
     "description": "Friday, March 14, 2025, 1 - 3pm Woodruff PE Center Mcdonough Field"
-  },
-  {
-    "title": "Emory Dance Company Course",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235867419",
-    "event_id": "1235867419",
-    "description": "Saturday, March 15, 2025, 11am - 4pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "Mulan Dance",
@@ -1633,9 +1627,9 @@
   },
   {
     "title": "MBB Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1254005023",
-    "event_id": "1254005023",
-    "description": "Wednesday, March 12, 2025, 10am - 12pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1251941406",
+    "event_id": "1251941406",
+    "description": "Wednesday, March 12, 2025, 10am - 12pm "
   },
   {
     "title": "Women's Tennis Practice",
@@ -1669,9 +1663,9 @@
   },
   {
     "title": "MBB Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1251941406",
-    "event_id": "1251941406",
-    "description": "Wednesday, March 12, 2025, 10am - 12pm "
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1254005023",
+    "event_id": "1254005023",
+    "description": "Wednesday, March 12, 2025, 10am - 12pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
   },
   {
     "title": "Women's Tennis Practice",
@@ -2410,5 +2404,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1208676319",
     "event_id": "1208676319",
     "description": "Monday, March 17, 2025, 11:30am - 12:45pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "PE 192 1 3279",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222894336",
+    "event_id": "1222894336",
+    "description": "Tuesday, March 18, 2025, 10 - 11:15am Woodruff PE Center Arena Court"
   }
 ]
