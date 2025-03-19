@@ -1,11 +1,5 @@
 [
   {
-    "title": "CS BJJ",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1230913073",
-    "event_id": "1230913073",
-    "description": "Saturday, March 8, 2025, 2 - 4pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
-  },
-  {
     "title": "Water Polo Practice (IMSC)",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235050883",
     "event_id": "1235050883",
@@ -2322,10 +2316,10 @@
     "description": "Thursday, March 20, 2025, 10 - 11:15am Woodruff PE Center Aerobics Room"
   },
   {
-    "title": "Pilates with GSGA",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1247434839",
-    "event_id": "1247434839",
-    "description": "Friday, March 21, 2025, 11:30am - 1:30pm Woodruff PE Center Aerobics Room"
+    "title": "CS/IM Meeting",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1258961582",
+    "event_id": "1258961582",
+    "description": "Friday, March 21, 2025, 11:30am - 12:50pm Woodruff PE Center 2nd conference room"
   },
   {
     "title": "Agnition Dance Practice",
@@ -2364,10 +2358,10 @@
     "description": "Thursday, March 20, 2025, 11am - 12pm Woodruff PE Center 2nd conference room"
   },
   {
-    "title": "Track & Field Meet",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1227975667",
-    "event_id": "1227975667",
-    "description": "Friday, March 21, 2025, 12 - 8pm Woodruff PE Center Mcdonough Field"
+    "title": "CS/IM Meeting",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1258971885",
+    "event_id": "1258971885",
+    "description": "Friday, March 21, 2025, 11:30am - 12:50pm Woodruff PE Center 2nd conference room"
   },
   {
     "title": "CS Men's Soccer Single Game",
@@ -2400,10 +2394,10 @@
     "description": "Thursday, March 20, 2025, 11:30am - 12:45pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
-    "title": "Emory Spring Break Classic",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1224572047",
-    "event_id": "1224572047",
-    "description": "Friday, March 21, 2025, 12 - 10pm Woodruff PE Center Court #1, Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
+    "title": "Pilates with GSGA",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1247434839",
+    "event_id": "1247434839",
+    "description": "Friday, March 21, 2025, 11:30am - 1:30pm Woodruff PE Center Aerobics Room"
   },
   {
     "title": "Spin (Cecilia)",
@@ -2428,5 +2422,17 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1250816694",
     "event_id": "1250816694",
     "description": "Wednesday, March 19, 2025, 10:30 - 11am Woodruff PE Center Large class room"
+  },
+  {
+    "title": "PE 116 1 3221",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222895402",
+    "event_id": "1222895402",
+    "description": "Thursday, March 20, 2025, 11:30am - 12:20pm Woodruff PE Center Cycling Studio"
+  },
+  {
+    "title": "Track & Field Meet",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1227975667",
+    "event_id": "1227975667",
+    "description": "Friday, March 21, 2025, 12 - 8pm Woodruff PE Center Mcdonough Field"
   }
 ]
