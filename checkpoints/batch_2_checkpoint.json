@@ -1,17 +1,5 @@
 [
   {
-    "title": "Emory Student Dance Rehearsals",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1241397144",
-    "event_id": "1241397144",
-    "description": "Sunday, April 13, 2025, 12 - 5pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
-  },
-  {
-    "title": "Student-Athlete Physicals - Karli",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1259505723",
-    "event_id": "1259505723",
-    "description": "Monday, April 14, 2025, 9 - 10:30am Woodruff PE Center small class room"
-  },
-  {
     "title": "PE 161 1 5607",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222893565",
     "event_id": "1222893565",
@@ -283,9 +271,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900794",
-    "event_id": "1221900794",
-    "description": "Friday, April 18, 2025, 2:15 - 4:15pm "
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900793",
+    "event_id": "1221900793",
+    "description": "Friday, April 18, 2025, 2:15pm "
   },
   {
     "title": "TNT Practice",
@@ -325,9 +313,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900793",
-    "event_id": "1221900793",
-    "description": "Friday, April 18, 2025, 2:15pm "
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900794",
+    "event_id": "1221900794",
+    "description": "Friday, April 18, 2025, 2:15 - 4:15pm "
   },
   {
     "title": "TNT Practice",
@@ -1996,5 +1984,17 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222894346",
     "event_id": "1222894346",
     "description": "Tuesday, April 22, 2025, 10 - 11:15am Woodruff PE Center Arena Court"
+  },
+  {
+    "title": "DANC 323R 1 2834",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1208676439",
+    "event_id": "1208676439",
+    "description": "Wednesday, April 23, 2025, 11:30am - 12:45pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "PE 164 1 3239",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222917674",
+    "event_id": "1222917674",
+    "description": "Thursday, April 24, 2025, 10 - 11:15am Woodruff PE Center Aerobics Room"
   }
 ]
