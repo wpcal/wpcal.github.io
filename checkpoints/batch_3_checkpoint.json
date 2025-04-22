@@ -1,17 +1,5 @@
 [
   {
-    "title": "DANC 323R 1 2834",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1208676429",
-    "event_id": "1208676429",
-    "description": "Monday, April 21, 2025, 11:30am - 12:45pm Woodruff PE Center - Dance Studio"
-  },
-  {
-    "title": "PE 164 1 3239",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222917665",
-    "event_id": "1222917665",
-    "description": "Tuesday, April 22, 2025, 10 - 11:15am Woodruff PE Center Aerobics Room"
-  },
-  {
     "title": "Emory IFC Tailgate/Field Day",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262244177",
     "event_id": "1262244177",
@@ -151,9 +139,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900801",
-    "event_id": "1221900801",
-    "description": "Friday, April 25, 2025, 2:15 - 4:15pm Woodruff PE Center All Outdoor Tennis courts"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900800",
+    "event_id": "1221900800",
+    "description": "Friday, April 25, 2025, 2:15pm Woodruff PE Center All Outdoor Tennis courts"
   },
   {
     "title": "FDS Fashion Show: Tutto Passa",
@@ -193,9 +181,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900800",
-    "event_id": "1221900800",
-    "description": "Friday, April 25, 2025, 2:15pm Woodruff PE Center All Outdoor Tennis courts"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900801",
+    "event_id": "1221900801",
+    "description": "Friday, April 25, 2025, 2:15 - 4:15pm Woodruff PE Center All Outdoor Tennis courts"
   },
   {
     "title": "Savera Practice",
@@ -1698,10 +1686,10 @@
     "description": "Monday, April 28, 2025, 10 - 11:15am Woodruff PE Center Aerobics Room"
   },
   {
-    "title": "Emory Dance Company Course",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235867457",
-    "event_id": "1235867457",
-    "description": "Tuesday, April 29, 2025, 5:30 - 9pm Woodruff PE Center - Dance Studio"
+    "title": "Hatha Yoga (Savvy)",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1269800116",
+    "event_id": "1269800116",
+    "description": "Tuesday, April 29, 2025, 5:15 - 6:15pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
     "title": "Women's Tennis Practice",
@@ -1729,9 +1717,15 @@
   },
   {
     "title": "Emory Dance Company Course",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235867458",
-    "event_id": "1235867458",
-    "description": "Wednesday, April 30, 2025, 5:30 - 9pm Woodruff PE Center - Dance Studio"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235867457",
+    "event_id": "1235867457",
+    "description": "Tuesday, April 29, 2025, 5:30 - 9pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "Cardio Blast (Amanda)",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1269800118",
+    "event_id": "1269800118",
+    "description": "Wednesday, April 30, 2025, 5:30 - 6:30pm Woodruff PE Center Aerobics Room"
   },
   {
     "title": "EXAM: DANC 226 1 2733",
@@ -1750,6 +1744,18 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1208676451",
     "event_id": "1208676451",
     "description": "Monday, April 28, 2025, 11:30am - 12:45pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "Cardio Blast (Amanda)",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1269800117",
+    "event_id": "1269800117",
+    "description": "Tuesday, April 29, 2025, 6:30 - 7:30pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "Emory Dance Company Course",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235867458",
+    "event_id": "1235867458",
+    "description": "Wednesday, April 30, 2025, 5:30 - 9pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "OR Meeting",
