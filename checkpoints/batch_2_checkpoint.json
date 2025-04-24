@@ -1,17 +1,5 @@
 [
   {
-    "title": "DANC 423R 1 2838",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1208676427",
-    "event_id": "1208676427",
-    "description": "Friday, April 18, 2025, 1 - 2:15pm Woodruff PE Center - Dance Studio"
-  },
-  {
-    "title": "Women's Tennis vs Georgia Gwinnett",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1265610110",
-    "event_id": "1265610110",
-    "description": "Saturday, April 19, 2025, 1 - 7pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
-  },
-  {
     "title": "Women's Tennis vs CWRU",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1216978066",
     "event_id": "1216978066",
@@ -147,7 +135,7 @@
     "title": "DANC 323R 1 2834",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1208676407",
     "event_id": "1208676407",
-    "description": "Monday, April 14, 2025, 11:30am - 12:45pm Woodruff PE Center - Dance Studio"
+    "description": "Description not found."
   },
   {
     "title": "PE 116 1 3221",
@@ -169,9 +157,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900794",
-    "event_id": "1221900794",
-    "description": "Friday, April 18, 2025, 2:15 - 4:15pm "
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900793",
+    "event_id": "1221900793",
+    "description": "Friday, April 18, 2025, 2:15pm "
   },
   {
     "title": "TNT Practice",
@@ -211,9 +199,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900793",
-    "event_id": "1221900793",
-    "description": "Friday, April 18, 2025, 2:15pm "
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900794",
+    "event_id": "1221900794",
+    "description": "Friday, April 18, 2025, 2:15 - 4:15pm "
   },
   {
     "title": "TNT Practice",
@@ -1059,7 +1047,7 @@
     "title": "Water Polo Practice (IMSC)",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235050935",
     "event_id": "1235050935",
-    "description": "Thursday, April 17, 2025, 6:30 - 8:30pm Woodruff PE Center Pool diving well / deep end"
+    "description": "Description not found."
   },
   {
     "title": "Feel Good Yoga (Martine)",
@@ -2026,5 +2014,23 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222893582",
     "event_id": "1222893582",
     "description": "Wednesday, April 23, 2025, 1 - 2:15pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "PE 167 3 3248",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222893585",
+    "event_id": "1222893585",
+    "description": "Thursday, April 24, 2025, 11:30am - 12:45pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "Men's Tennis Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221902295",
+    "event_id": "1221902295",
+    "description": "Friday, April 25, 2025, 2:15 - 4:15pm Woodruff PE Center All Indoor Tennis courts"
+  },
+  {
+    "title": "Break Emory Weekly Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1242052344",
+    "event_id": "1242052344",
+    "description": "Saturday, April 26, 2025, 5 - 7:30pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   }
 ]
