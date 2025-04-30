@@ -1,17 +1,5 @@
 [
   {
-    "title": "DANC 121R 2 2739",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1208676422",
-    "event_id": "1208676422",
-    "description": "Thursday, April 17, 2025, 11:30am - 12:45pm Woodruff PE Center - Dance Studio"
-  },
-  {
-    "title": "DANC 423R 1 2838",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1208676427",
-    "event_id": "1208676427",
-    "description": "Friday, April 18, 2025, 1 - 2:15pm Woodruff PE Center - Dance Studio"
-  },
-  {
     "title": "Splash Fitness (Mariam)",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1229836022",
     "event_id": "1229836022",
@@ -133,9 +121,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900794",
-    "event_id": "1221900794",
-    "description": "Friday, April 18, 2025, 2:15 - 4:15pm "
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900793",
+    "event_id": "1221900793",
+    "description": "Friday, April 18, 2025, 2:15pm "
   },
   {
     "title": "TNT Practice",
@@ -175,9 +163,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900793",
-    "event_id": "1221900793",
-    "description": "Friday, April 18, 2025, 2:15pm "
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900794",
+    "event_id": "1221900794",
+    "description": "Friday, April 18, 2025, 2:15 - 4:15pm "
   },
   {
     "title": "Break Emory Weekly Practice",
@@ -1750,5 +1738,23 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1208676430",
     "event_id": "1208676430",
     "description": "Monday, April 21, 2025, 1 - 2:15pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "Men's Tennis Individuals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1236518499",
+    "event_id": "1236518499",
+    "description": "Tuesday, April 22, 2025, 11:30am - 2:30pm Woodruff PE Center Indoor Tennis court #10 (roof), Woodruff PE Center All Outdoor Tennis courts"
+  },
+  {
+    "title": "Women's Tennis Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235334746",
+    "event_id": "1235334746",
+    "description": "Wednesday, April 23, 2025, 1 - 2:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
+  },
+  {
+    "title": "Men's Basketball Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1267734666",
+    "event_id": "1267734666",
+    "description": "Thursday, April 24, 2025, 11:30am - 6:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
   }
 ]
