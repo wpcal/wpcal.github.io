@@ -1,11 +1,5 @@
 [
   {
-    "title": "Women's Tennis vs CWRU",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1216978066",
-    "event_id": "1216978066",
-    "description": "Sunday, April 13, 2025, 12 - 4pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
-  },
-  {
     "title": "Hatha Yoga (Savvy)",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1229821886",
     "event_id": "1229821886",
@@ -1753,14 +1747,20 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900800",
-    "event_id": "1221900800",
-    "description": "Friday, April 25, 2025, 2:15pm Woodruff PE Center All Outdoor Tennis courts"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900801",
+    "event_id": "1221900801",
+    "description": "Friday, April 25, 2025, 2:15 - 4:15pm Woodruff PE Center All Outdoor Tennis courts"
   },
   {
     "title": "Savera Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1241501844",
     "event_id": "1241501844",
     "description": "Saturday, April 26, 2025, 5 - 8pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "Emory Eagles Cricket Club - Open Play",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1234025612",
+    "event_id": "1234025612",
+    "description": "Sunday, April 20, 2025, 4 - 7pm Woodruff PE Center Mcdonough Field"
   }
 ]
