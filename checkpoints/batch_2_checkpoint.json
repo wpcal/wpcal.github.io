@@ -1,17 +1,5 @@
 [
   {
-    "title": "Emory Dance Company Course",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235867467",
-    "event_id": "1235867467",
-    "description": "Saturday, May 10, 2025, 11am - 4pm Woodruff PE Center - Dance Studio"
-  },
-  {
-    "title": "Women's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221946069",
-    "event_id": "1221946069",
-    "description": "Sunday, May 4, 2025, 10am - 1pm Woodruff PE Center Indoor Tennis court #7 (roof), Woodruff PE Center Indoor Tennis court #8 (roof), Woodruff PE Center Indoor Tennis court #9 (roof), Woodruff PE Center Indoor Tennis court #10 (roof), Woodruff PE Center Indoor Tennis Court  #11,…"
-  },
-  {
     "title": "EXAM: PE 110 1 3191",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1247138971",
     "event_id": "1247138971",
@@ -115,9 +103,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900829",
-    "event_id": "1221900829",
-    "description": "Friday, May 9, 2025, 2:15pm Woodruff PE Center All Outdoor Tennis courts"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900830",
+    "event_id": "1221900830",
+    "description": "Friday, May 9, 2025, 2:15 - 4:15pm Woodruff PE Center All Outdoor Tennis courts"
   },
   {
     "title": "Men's Tennis Practice",
@@ -151,9 +139,9 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900830",
-    "event_id": "1221900830",
-    "description": "Friday, May 9, 2025, 2:15 - 4:15pm Woodruff PE Center All Outdoor Tennis courts"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900829",
+    "event_id": "1221900829",
+    "description": "Friday, May 9, 2025, 2:15pm Woodruff PE Center All Outdoor Tennis courts"
   },
   {
     "title": "EXAM: PE 167 4 3251",
@@ -448,5 +436,17 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1268231566",
     "event_id": "1268231566",
     "description": "Sunday, May 11, 2025, 6am - 11pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
+  },
+  {
+    "title": "Graduation 2025",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1268231567",
+    "event_id": "1268231567",
+    "description": "Monday, May 12, 2025, 6am - 11pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
+  },
+  {
+    "title": "Graduation 2025",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1268231568",
+    "event_id": "1268231568",
+    "description": "Tuesday, May 13, 2025, 6am - 11pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
   }
 ]
