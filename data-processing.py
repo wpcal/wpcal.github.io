@@ -205,6 +205,9 @@ def format_datetime(dt):
     """Format datetime for readability"""
     return dt.strftime('%A, %B %d, %Y %I:%M %p')
 
+def format_time(dt):
+    return dt.strftime('%-I:%M%p').lower().replace(':00', '') if dt.minute != 0 else dt.strftime('%-I%p').lower()
+
 def fetch_availability_data(unique_dates, parsed_events):
     """
     Fetch availability data for the next 14 days and format it as a JSON structure.
@@ -218,7 +221,7 @@ def fetch_availability_data(unique_dates, parsed_events):
             available_times = get_available_times(date.date(), parsed_events, court_number=3)
             
             for start, end in available_times:
-                slot = f"{start.strftime('%I:%M %p')}-{end.strftime('%I:%M %p')}"
+                slot = f"{format_time(start)} - {format_time(end)}"
                 available_slots.append(slot)
             
             availability_data[date_str] = available_slots
