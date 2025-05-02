@@ -218,7 +218,7 @@ def fetch_availability_data(unique_dates, parsed_events):
             available_times = get_available_times(date.date(), parsed_events, court_number=3)
             
             for start, end in available_times:
-                slot = f"{start.strftime('%H:%M')}-{end.strftime('%H:%M')}"
+                slot = f"{start.strftime('%I:%M %p')}-{end.strftime('%I:%M %p')}"
                 available_slots.append(slot)
             
             availability_data[date_str] = available_slots
