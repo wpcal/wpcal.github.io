@@ -48,55 +48,127 @@ def parse_time(time_str, context_time_str=None):
     
     raise ValueError(f"Time format not recognized: {time_str}")
 
+# def parse_schedule_data(events_list: List[str]) -> List[Dict]:
+#     """
+#     Parse schedule data from a list of event strings into structured format.
+    
+#     Args:
+#         events_list: A list of strings containing the event information
+        
+#     Returns:
+#         A list of dictionaries, each containing date, start time, end time, and location
+#     """
+#     parsed_events = []
+    
+#     for event in events_list:
+#         # Skip empty entries
+#         if not event.strip():
+#             continue
+            
+#         # Improved pattern to better handle time formats
+#         pattern = r'([A-Za-z]+, [A-Za-z]+ \d+, \d{4})(?:, (\d+(?::\d+)?(?:am|pm)?) - (\d+(?::\d+)?(?:am|pm)?))?(.+)'
+#         match = re.match(pattern, event)
+        
+#         if match:
+#             date_str, start_time, end_time, location = match.groups()
+            
+#             # Clean up the location and check if it contains misplaced time information
+#             location = location.strip()
+            
+#             # Check if location starts with a time pattern that might have been missed
+#             time_in_location = re.match(r',?\s*(\d+(?::\d+)?(?:am|pm)?) - (\d+(?::\d+)?(?:am|pm)?)(.*)', location)
+#             if time_in_location and not start_time:
+#                 # Extract the time from the location field
+#                 start_time = time_in_location.group(1)
+#                 end_time = time_in_location.group(2)
+#                 location = time_in_location.group(3).strip()
+            
+#             # If no time is given, it means the entire date
+#             if start_time is None:
+#                 start_time = "12am"
+#                 end_time = "11:59pm"
+                
+#             parsed_events.append({
+#                 "date": date_str,
+#                 "start_time": start_time,
+#                 "end_time": end_time,
+#                 "location": location
+#             })
+#         else:
+#             print(f"Failed to parse event: {event}")
+    
+#     return parsed_events
+
 def parse_schedule_data(events_list: List[str]) -> List[Dict]:
     """
     Parse schedule data from a list of event strings into structured format.
-    
-    Args:
-        events_list: A list of strings containing the event information
-        
-    Returns:
-        A list of dictionaries, each containing date, start time, end time, and location
+    Handles both single-day and multi-day formats.
     """
     parsed_events = []
-    
     for event in events_list:
-        # Skip empty entries
         if not event.strip():
             continue
-            
-        # Improved pattern to better handle time formats
-        pattern = r'([A-Za-z]+, [A-Za-z]+ \d+, \d{4})(?:, (\d+(?::\d+)?(?:am|pm)?) - (\d+(?::\d+)?(?:am|pm)?))?(.+)'
-        match = re.match(pattern, event)
-        
-        if match:
-            date_str, start_time, end_time, location = match.groups()
-            
-            # Clean up the location and check if it contains misplaced time information
+
+        # Handle multi-day range
+        range_pattern = (
+            r'([A-Za-z]+, [A-Za-z]+ \d+), (\d+(?::\d+)?(?:am|pm)?) - '
+            r'([A-Za-z]+, [A-Za-z]+ \d+, \d{4}), (\d+(?::\d+)?(?:am|pm)?)(.+)'
+        )
+        match_range = re.match(range_pattern, event)
+        if match_range:
+            start_day_str, start_time, end_day_str, end_time, location = match_range.groups()
+            start_date = datetime.strptime(f"{start_day_str}, {end_day_str[-4:]}", '%A, %B %d, %Y')
+            end_date = datetime.strptime(end_day_str, '%A, %B %d, %Y')
+
             location = location.strip()
-            
-            # Check if location starts with a time pattern that might have been missed
-            time_in_location = re.match(r',?\s*(\d+(?::\d+)?(?:am|pm)?) - (\d+(?::\d+)?(?:am|pm)?)(.*)', location)
-            if time_in_location and not start_time:
-                # Extract the time from the location field
-                start_time = time_in_location.group(1)
-                end_time = time_in_location.group(2)
-                location = time_in_location.group(3).strip()
-            
-            # If no time is given, it means the entire date
-            if start_time is None:
+
+            current_date = start_date
+            while current_date <= end_date:
+                # First day uses start_time, last day uses end_time, others use full day
+                if current_date == start_date:
+                    st, et = start_time, "11:59pm"
+                elif current_date == end_date:
+                    st, et = "12am", end_time
+                else:
+                    st, et = "12am", "11:59pm"
+                parsed_events.append({
+                    "date": current_date.strftime('%A, %B %d, %Y'),
+                    "start_time": st,
+                    "end_time": et,
+                    "location": location
+                })
+                current_date += timedelta(days=1)
+            continue
+
+        # Handle single-day format
+        single_day_pattern = (
+            r'([A-Za-z]+, [A-Za-z]+ \d+, \d{4})(?:, (\d+(?::\d+)?(?:am|pm)?) - (\d+(?::\d+)?(?:am|pm)?))?(.+)'
+        )
+        match_single = re.match(single_day_pattern, event)
+        if match_single:
+            date_str, start_time, end_time, location = match_single.groups()
+            location = location.strip()
+
+            # Try to extract time from location if missing
+            time_match = re.match(r',?\s*(\d+(?::\d+)?(?:am|pm)?) - (\d+(?::\d+)?(?:am|pm)?)(.*)', location)
+            if time_match and not start_time:
+                start_time, end_time, location = time_match.groups()
+                location = location.strip()
+
+            if not start_time:
                 start_time = "12am"
+            if not end_time:
                 end_time = "11:59pm"
-                
+
             parsed_events.append({
-                "date": date_str,
+                "date": date_str.strip(),
                 "start_time": start_time,
                 "end_time": end_time,
                 "location": location
             })
         else:
             print(f"Failed to parse event: {event}")
-    
+
     return parsed_events
 
 def fetch_events(date, events_data, court_number=3):
