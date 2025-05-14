@@ -420,10 +420,10 @@
     "description": "Friday, May 9, 2025, 10 - 11am Woodruff PE Center 2nd conference room"
   },
   {
-    "title": "Emory Dance Company Course",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235867467",
-    "event_id": "1235867467",
-    "description": "Saturday, May 10, 2025, 11am - 4pm Woodruff PE Center - Dance Studio"
+    "title": "Class Day Crossover Tent Install/Strike",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1274122616",
+    "event_id": "1274122616",
+    "description": "Saturday, May 10, 2025, 8am - 11pm Woodruff PE Center Mcdonough Field, Woodruff PE Center Mcdonough Stage"
   },
   {
     "title": "Emory Dance Company Course",
@@ -462,6 +462,12 @@
     "description": "Friday, May 9, 2025, 1 - 2:30pm Woodruff PE Center 2nd conference room"
   },
   {
+    "title": "Emory Dance Company Course",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1235867467",
+    "event_id": "1235867467",
+    "description": "Saturday, May 10, 2025, 11am - 4pm Woodruff PE Center - Dance Studio"
+  },
+  {
     "title": "Men's Tennis Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1222279441",
     "event_id": "1222279441",
@@ -472,11 +478,5 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1245595040",
     "event_id": "1245595040",
     "description": "Monday, May 5, 2025, 11:30am - 2pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
-  },
-  {
-    "title": "EXAM: DANC 123R 1 2731",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1245595053",
-    "event_id": "1245595053",
-    "description": "Tuesday, May 6, 2025, 11:30am - 2pm Woodruff PE Center - Dance Studio"
   }
 ]
