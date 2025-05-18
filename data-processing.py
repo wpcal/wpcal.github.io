@@ -8,11 +8,11 @@ timezone = pytz.timezone('US/Eastern')
 
 # Operating hours for the facility
 OPERATING_HOURS = {
-    'Monday': ('6:30am', '8pm'),
-    'Tuesday': ('6:30am', '8pm'),
-    'Wednesday': ('6:30am', '8pm'),
-    'Thursday': ('6:30am', '8pm'),
-    'Friday': ('6:30am', '8pm'),
+    'Monday': ('7:00am', '8pm'),
+    'Tuesday': ('7:00am', '8pm'),
+    'Wednesday': ('7:00am', '8pm'),
+    'Thursday': ('7:00am', '8pm'),
+    'Friday': ('7:00am', '8pm'),
     'Saturday': ('10am', '6pm'),
     'Sunday': ('10am', '6pm')
 }
