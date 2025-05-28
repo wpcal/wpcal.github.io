@@ -1,11 +1,5 @@
 [
   {
-    "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1221900829",
-    "event_id": "1221900829",
-    "description": "Friday, May 9, 2025, 2:15pm Woodruff PE Center All Outdoor Tennis courts"
-  },
-  {
     "title": "Tennis Selection Shows",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1271695596",
     "event_id": "1271695596",
@@ -520,5 +514,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1271774487",
     "event_id": "1271774487",
     "description": "Friday, May 16, 2025, 9am - 10pm Woodruff PE Center Mcdonough Field, Woodruff PE Center Mcdonough Stage"
+  },
+  {
+    "title": "SOGA #25000",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1271774488",
+    "event_id": "1271774488",
+    "description": "Saturday, May 17, 2025, 8am - 3:30pm Woodruff PE Center Mcdonough Field, Woodruff PE Center Mcdonough Stage"
   }
 ]
