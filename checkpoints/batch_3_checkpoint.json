@@ -1,23 +1,5 @@
 [
   {
-    "title": "Athletics Meeting",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1281829179",
-    "event_id": "1281829179",
-    "description": "Tuesday, June 24, 2025, 8:30am - 1pm Woodruff PE Center small class room"
-  },
-  {
-    "title": "Emory Sports Fitness Camp",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1273403124",
-    "event_id": "1273403124",
-    "description": "Wednesday, June 25, 2025, 8:30am - 12pm Woodruff PE Center Mcdonough Field"
-  },
-  {
-    "title": "Twardoski Camp",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1277395117",
-    "event_id": "1277395117",
-    "description": "Thursday, June 26, 2025, 12 - 1pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2, Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
-  },
-  {
     "title": "SFC Hold",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1279012674",
     "event_id": "1279012674",
@@ -70,6 +52,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1274048180",
     "event_id": "1274048180",
     "description": "Wednesday, June 25, 2025, 10 - 11am Woodruff PE Center 2nd conference room"
+  },
+  {
+    "title": "Karate Class",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284299362",
+    "event_id": "1284299362",
+    "description": "Thursday, June 26, 2025, 5:45 - 7pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
     "title": "SFC Hold",
@@ -126,10 +114,10 @@
     "description": "Friday, June 27, 2025, 2 - 3:45pm Woodruff PE Center 2nd conference room, Woodruff PE Center small class room, Woodruff PE Center Large class room"
   },
   {
-    "title": "Coach Kurey Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1276019887",
-    "event_id": "1276019887",
-    "description": "Tuesday, June 24, 2025, 6 - 7:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
+    "title": "Karate Class",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284299361",
+    "event_id": "1284299361",
+    "description": "Tuesday, June 24, 2025, 5:45 - 7pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
     "title": "Twardoski Camp",
@@ -145,8 +133,8 @@
   },
   {
     "title": "Coach Kurey Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1276019396",
-    "event_id": "1276019396",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1276019887",
+    "event_id": "1276019887",
     "description": "Tuesday, June 24, 2025, 6 - 7:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
   },
   {
@@ -154,6 +142,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1273403125",
     "event_id": "1273403125",
     "description": "Wednesday, June 25, 2025, 12 - 4pm Woodruff PE Center Mcdonough Field"
+  },
+  {
+    "title": "Coach Kurey Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1276019396",
+    "event_id": "1276019396",
+    "description": "Tuesday, June 24, 2025, 6 - 7:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
   },
   {
     "title": "SFC Hold",
@@ -468,6 +462,12 @@
     "description": "Thursday, July 3, 2025, 11 - 11:30am Woodruff PE Center 2nd conference room"
   },
   {
+    "title": "Karate Class",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284299363",
+    "event_id": "1284299363",
+    "description": "Sunday, June 29, 2025, 4 - 5:30pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
     "title": "RecWell Team Meeting",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1274048182",
     "event_id": "1274048182",
@@ -519,6 +519,18 @@
     "title": "Karate Class",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1280367002",
     "event_id": "1280367002",
+    "description": "Thursday, July 3, 2025, 5:45 - 7pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "Karate Class",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284299364",
+    "event_id": "1284299364",
+    "description": "Tuesday, July 1, 2025, 5:45 - 7pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "Karate Class",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284299365",
+    "event_id": "1284299365",
     "description": "Thursday, July 3, 2025, 5:45 - 7pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
