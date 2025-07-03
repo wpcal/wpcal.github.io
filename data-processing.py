@@ -8,13 +8,13 @@ timezone = pytz.timezone('US/Eastern')
 
 # Operating hours for the facility
 OPERATING_HOURS = {
-    'Monday': ('1am', '11pm'),
-    'Tuesday': ('1am', '11pm'),
-    'Wednesday': ('1am', '11pm'),
-    'Thursday': ('1am', '11pm'),
-    'Friday': ('1am', '11pm'),
-    'Saturday': ('1am', '11pm'),
-    'Sunday': ('1am', '11pm')
+    'Monday': ('7:00am', '8pm'),
+    'Tuesday': ('7:00am', '8pm'),
+    'Wednesday': ('7:00am', '8pm'),
+    'Thursday': ('7:00am', '8pm'),
+    'Friday': ('7:00am', '8pm'),
+    'Saturday': ('10am', '6pm'),
+    'Sunday': ('10am', '6pm')
 }
 
 def parse_time(time_str, context_time_str=None):
@@ -294,8 +294,6 @@ def fetch_availability_data(unique_dates, parsed_events):
             
             for start, end in available_times:
                 slot = f"{format_time(start)} - {format_time(end)}"
-                slot.replace("1am", "Opening time")
-                slot.replace("11pm", "Closing time")
                 available_slots.append(slot)
             
             availability_data[date_str] = available_slots
