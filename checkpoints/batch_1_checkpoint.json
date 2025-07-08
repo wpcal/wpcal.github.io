@@ -1,12 +1,6 @@
 [
   {
     "title": "Camp Mosaic",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284244142",
-    "event_id": "1284244142",
-    "description": "Friday, July 11, 2025, 6am - 5pm Woodruff PE Center Atrium, Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts, Woodruff PE Center Racquetball court #3, Woodruff PE Center Racquetball court #4, Woodruff PE Center small class room, Woodruff PE Center Large class…"
-  },
-  {
-    "title": "Camp Mosaic",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284244143",
     "event_id": "1284244143",
     "description": "Saturday, July 12, 2025, 6am - 5pm Woodruff PE Center Atrium, Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts, Woodruff PE Center Racquetball court #3, Woodruff PE Center Racquetball court #4, Woodruff PE Center small class room, Woodruff PE Center Large class…"
@@ -462,10 +456,10 @@
     "description": "Monday, July 7, 2025, 5:30 - 6:30pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
-    "title": "DAQ Swimming",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285743324",
-    "event_id": "1285743324",
-    "description": "Tuesday, July 8, 2025, 3 - 5pm Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE Center Pool"
+    "title": "CS/IM Meeting",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285924658",
+    "event_id": "1285924658",
+    "description": "Tuesday, July 8, 2025, 10 - 11am Woodruff PE Center 2nd conference room"
   },
   {
     "title": "Mosaic",
@@ -480,10 +474,10 @@
     "description": "Thursday, July 10, 2025, 3 - 5pm Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE Center Pool"
   },
   {
-    "title": "\"TickTockTone\"",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1281153935",
-    "event_id": "1281153935",
-    "description": "Tuesday, July 8, 2025, 5:30 - 6:30pm Woodruff PE Center Aerobics Room"
+    "title": "DAQ Swimming",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285743324",
+    "event_id": "1285743324",
+    "description": "Tuesday, July 8, 2025, 3 - 5pm Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE Center Pool"
   },
   {
     "title": "Sports Medicine - Dunham",
@@ -496,5 +490,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1280367005",
     "event_id": "1280367005",
     "description": "Thursday, July 10, 2025, 5:45 - 7pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "\"TickTockTone\"",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1281153935",
+    "event_id": "1281153935",
+    "description": "Tuesday, July 8, 2025, 5:30 - 6:30pm Woodruff PE Center Aerobics Room"
   }
 ]
