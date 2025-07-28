@@ -1,6 +1,12 @@
 [
   {
     "title": "Camp Mosaic",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284244143",
+    "event_id": "1284244143",
+    "description": "Saturday, July 12, 2025, 6am - 5pm Woodruff PE Center Atrium, Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts, Woodruff PE Center Racquetball court #3, Woodruff PE Center Racquetball court #4, Woodruff PE Center small class room, Woodruff PE Center Large class…"
+  },
+  {
+    "title": "Camp Mosaic",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284550914",
     "event_id": "1284550914",
     "description": "Sunday, July 6, 2025, 6am - 5pm Woodruff PE Center Atrium, Woodruff PE Center Racquetball court #3, Woodruff PE Center Racquetball court #4, Woodruff PE Center small class room, Woodruff PE Center Large class room, Woodruff PE Center Soccer Field, Woodruff PE Center - Dance Studio"
@@ -294,12 +300,6 @@
     "description": "Saturday, July 12, 2025, 8am - 12pm Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE Center Pool"
   },
   {
-    "title": "Karate Class",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284299366",
-    "event_id": "1284299366",
-    "description": "Sunday, July 6, 2025, 4 - 5:30pm Woodruff PE Center Aerobics Room"
-  },
-  {
     "title": "Nike Tennis Camp",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284677306",
     "event_id": "1284677306",
@@ -478,23 +478,5 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1181229291",
     "event_id": "1181229291",
     "description": "Wednesday, July 9, 2025, 9:30 - 11am Woodruff PE Center small class room"
-  },
-  {
-    "title": "Karate Class",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1280367005",
-    "event_id": "1280367005",
-    "description": "Thursday, July 10, 2025, 5:45 - 7pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
-  },
-  {
-    "title": "Karate Class",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1280367004",
-    "event_id": "1280367004",
-    "description": "Tuesday, July 8, 2025, 5:45 - 7pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
-  },
-  {
-    "title": "RecWell Team Meeting",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1274048183",
-    "event_id": "1274048183",
-    "description": "Wednesday, July 9, 2025, 10 - 11am Woodruff PE Center 2nd conference room"
   }
 ]
