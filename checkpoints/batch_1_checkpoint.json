@@ -1,29 +1,5 @@
 [
   {
-    "title": "Mobile Fitness Event",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290260129",
-    "event_id": "1290260129",
-    "description": "Thursday, August 14, 2025, 11:45am - 1pm Woodruff PE Center Aerobics Room"
-  },
-  {
-    "title": "Varsity Volleyball Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288943513",
-    "event_id": "1288943513",
-    "description": "Saturday, August 16, 2025, 10am - 12:30pm Woodruff PE Center Auxillary Court, Woodruff PE Center Arena Court"
-  },
-  {
-    "title": "Men's Soccer Captains Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1292105376",
-    "event_id": "1292105376",
-    "description": "Monday, August 11, 2025, 5:30 - 7pm Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
-  },
-  {
-    "title": "RecWell Team Meeting",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1274048191",
-    "event_id": "1274048191",
-    "description": "Tuesday, August 12, 2025, 11am - 12pm Woodruff PE Center 2nd conference room"
-  },
-  {
     "title": "Coach Megan's Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1277487919",
     "event_id": "1277487919",
@@ -526,5 +502,53 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288942137",
     "event_id": "1288942137",
     "description": "Sunday, August 24, 2025, 4 - 10pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4, Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE…"
+  },
+  {
+    "title": "Varsity Volleyball Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288937448",
+    "event_id": "1288937448",
+    "description": "Monday, August 25, 2025, 9 - 11:30am Woodruff PE Center Auxillary Court, Woodruff PE Center Arena Court"
+  },
+  {
+    "title": "Varsity Volleyball Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288943521",
+    "event_id": "1288943521",
+    "description": "Tuesday, August 26, 2025, 1 - 4pm Woodruff PE Center Auxillary Court"
+  },
+  {
+    "title": "PE 162 1 3688",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285774228",
+    "event_id": "1285774228",
+    "description": "Wednesday, August 27, 2025, 10 - 11:15am Woodruff PE Center Aerobics Room"
+  },
+  {
+    "title": "PE 212 1 5457",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285770235",
+    "event_id": "1285770235",
+    "description": "Thursday, August 28, 2025, 10 - 11:15am Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE Center Pool"
+  },
+  {
+    "title": "MSOC Sonny Carter Invitational",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262833618",
+    "event_id": "1262833618",
+    "description": "Friday, August 29, 2025, 3 - 7:30pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
+  },
+  {
+    "title": "MSOC Sonny Carter Invitational",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262832939",
+    "event_id": "1262832939",
+    "description": "Saturday, August 30, 2025, 4:30 - 9pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
+  },
+  {
+    "title": "Rec the Night/Pep Rally Hold",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288943519",
+    "event_id": "1288943519",
+    "description": "Sunday, August 24, 2025, 4 - 10pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4, Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE…"
+  },
+  {
+    "title": "Events Meeting",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288670882",
+    "event_id": "1288670882",
+    "description": "Monday, August 25, 2025, 10 - 10:30am Woodruff PE Center Large class room"
   }
 ]
