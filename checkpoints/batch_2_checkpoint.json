@@ -1,11 +1,5 @@
 [
   {
-    "title": "Rec the Night/Pep Rally Hold",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288943697",
-    "event_id": "1288943697",
-    "description": "Sunday, August 24, 2025, 4 - 10pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4, Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE…"
-  },
-  {
     "title": "Move + Meditate (Tani)",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293151641",
     "event_id": "1293151641",
@@ -31,8 +25,8 @@
   },
   {
     "title": "WTEN Captain's Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293004354",
-    "event_id": "1293004354",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293004376",
+    "event_id": "1293004376",
     "description": "Friday, August 29, 2025, 4:15 - 5:45pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
   },
   {
@@ -66,10 +60,10 @@
     "description": "Thursday, August 28, 2025, 11:30am - 12:45pm Woodruff PE Center - Dance Studio"
   },
   {
-    "title": "W Soccer vs Columbus State",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262833619",
-    "event_id": "1262833619",
-    "description": "Friday, August 29, 2025, 8 - 10pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
+    "title": "WTEN Captain's Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293004354",
+    "event_id": "1293004354",
+    "description": "Friday, August 29, 2025, 4:15 - 5:45pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
   },
   {
     "title": "Rec the Night/Pep Rally Hold",
@@ -103,8 +97,8 @@
   },
   {
     "title": "W Soccer vs Columbus State",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262832938",
-    "event_id": "1262832938",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262833619",
+    "event_id": "1262833619",
     "description": "Friday, August 29, 2025, 8 - 10pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
   },
   {
@@ -136,6 +130,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285774233",
     "event_id": "1285774233",
     "description": "Thursday, August 28, 2025, 11:30am - 12:45pm Woodruff PE Center Aerobics Room"
+  },
+  {
+    "title": "W Soccer vs Columbus State",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262832938",
+    "event_id": "1262832938",
+    "description": "Friday, August 29, 2025, 8 - 10pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
   },
   {
     "title": "Rec the Night/Pep Rally Hold",
@@ -534,10 +534,10 @@
     "description": "Saturday, September 6, 2025, 12 - 3pm Woodruff PE Center Aerobics Room"
   },
   {
-    "title": "Aqua Fitness (Mariam)",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293151828",
-    "event_id": "1293151828",
-    "description": "Sunday, August 31, 2025, 2 - 2:50pm Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane"
+    "title": "EBNSO Field Day",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293998385",
+    "event_id": "1293998385",
+    "description": "Sunday, August 31, 2025, 2 - 9pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2"
   },
   {
     "title": "Varsity Volleyball Practice",
@@ -576,10 +576,10 @@
     "description": "Saturday, September 6, 2025, 2 - 4pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
-    "title": "CS Men's Volleyball",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869134",
-    "event_id": "1290869134",
-    "description": "Sunday, August 31, 2025, 4:45 - 7:45pm Woodruff PE Center Court #3"
+    "title": "Aqua Fitness (Mariam)",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293151828",
+    "event_id": "1293151828",
+    "description": "Sunday, August 31, 2025, 2 - 2:50pm Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane"
   },
   {
     "title": "Men's Soccer Practice",
@@ -612,10 +612,16 @@
     "description": "Friday, September 5, 2025, 4 - 6pm Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
   },
   {
-    "title": "Team Auditions",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293392142",
-    "event_id": "1293392142",
-    "description": "Saturday, September 6, 2025, 4 - 7pm Woodruff PE Center Aerobics Room"
+    "title": "Persuasion Auditions",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293998548",
+    "event_id": "1293998548",
+    "description": "Saturday, September 6, 2025, 4 - 6:30pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "CS Men's Volleyball",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869134",
+    "event_id": "1290869134",
+    "description": "Sunday, August 31, 2025, 4:45 - 7:45pm Woodruff PE Center Court #3"
   },
   {
     "title": "Women's Soccer Practice",
