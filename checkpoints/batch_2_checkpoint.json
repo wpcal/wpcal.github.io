@@ -1,17 +1,5 @@
 [
   {
-    "title": "Men's Tennis Meeting",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1296162312",
-    "event_id": "1296162312",
-    "description": "Friday, August 29, 2025, 3:30 - 5pm Woodruff PE Center small class room"
-  },
-  {
-    "title": "Rec the Night/Pep Rally Hold",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288943737",
-    "event_id": "1288943737",
-    "description": "Sunday, August 24, 2025, 4 - 10pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4, Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE…"
-  },
-  {
     "title": "Move + Meditate (Tani)",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293151641",
     "event_id": "1293151641",
@@ -144,10 +132,10 @@
     "description": "Thursday, August 28, 2025, 11:30am - 11:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
   },
   {
-    "title": "W Soccer vs Columbus State",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262833619",
-    "event_id": "1262833619",
-    "description": "Friday, August 29, 2025, 8 - 10pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
+    "title": "WSOC Pregame",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1296489187",
+    "event_id": "1296489187",
+    "description": "Friday, August 29, 2025, 6:30 - 7:30pm Woodruff PE Center Large class room"
   },
   {
     "title": "Rec the Night/Pep Rally Hold",
@@ -181,8 +169,8 @@
   },
   {
     "title": "W Soccer vs Columbus State",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262832938",
-    "event_id": "1262832938",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262833619",
+    "event_id": "1262833619",
     "description": "Friday, August 29, 2025, 8 - 10pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
   },
   {
@@ -214,6 +202,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293151649",
     "event_id": "1293151649",
     "description": "Thursday, August 28, 2025, 12:15 - 12:45pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "W Soccer vs Columbus State",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1262832938",
+    "event_id": "1262832938",
+    "description": "Friday, August 29, 2025, 8 - 10pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
   },
   {
     "title": "Rec the Night/Pep Rally Hold",
@@ -670,5 +664,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285773879",
     "event_id": "1285773879",
     "description": "Wednesday, September 3, 2025, 10 - 11:15am Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "DANC 121R 1 2749",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284760813",
+    "event_id": "1284760813",
+    "description": "Thursday, September 4, 2025, 10 - 11:15am Woodruff PE Center - Dance Studio"
   }
 ]
