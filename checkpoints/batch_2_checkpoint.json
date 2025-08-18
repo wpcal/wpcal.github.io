@@ -1,17 +1,5 @@
 [
   {
-    "title": "Student Sustainability Showcase",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290262507",
-    "event_id": "1290262507",
-    "description": "Tuesday, August 26, 2025, 12 - 1:30pm Woodruff PE Center Mcdonough Field, Woodruff PE Center Mcdonough Stage"
-  },
-  {
-    "title": "PE 162 1 3688",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285774228",
-    "event_id": "1285774228",
-    "description": "Wednesday, August 27, 2025, 10 - 11:15am Woodruff PE Center Aerobics Room"
-  },
-  {
     "title": "PE 192 1 3587",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285770394",
     "event_id": "1285770394",
@@ -606,10 +594,10 @@
     "description": "Friday, September 5, 2025, 11:30am - 12:20pm Woodruff PE Center Cycling Studio"
   },
   {
-    "title": "Rise & Ride (Cecilia)",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293150942",
-    "event_id": "1293150942",
-    "description": "Saturday, September 6, 2025, 10:15 - 11:05am Woodruff PE Center Cycling Studio"
+    "title": "Dance Net Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682266",
+    "event_id": "1298682266",
+    "description": "Saturday, September 6, 2025, 10am - 3pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "WTEN Captain's Practice",
@@ -648,10 +636,10 @@
     "description": "Friday, September 5, 2025, 11:30am - 12:45pm Woodruff PE Center - Dance Studio"
   },
   {
-    "title": "BlaeZ Dance Team Audition",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293230313",
-    "event_id": "1293230313",
-    "description": "Saturday, September 6, 2025, 12 - 3pm Woodruff PE Center Aerobics Room"
+    "title": "Rise & Ride (Cecilia)",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293150942",
+    "event_id": "1293150942",
+    "description": "Saturday, September 6, 2025, 10:15 - 11:05am Woodruff PE Center Cycling Studio"
   },
   {
     "title": "EBNSO Field Day",
@@ -684,16 +672,16 @@
     "description": "Thursday, September 4, 2025, 10 - 11:15am Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
-    "title": "CS EGEWU",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290839302",
-    "event_id": "1290839302",
-    "description": "Friday, September 5, 2025, 4 - 6pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2"
+    "title": "EDC Rehearsals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682264",
+    "event_id": "1298682264",
+    "description": "Friday, September 5, 2025, 1 - 4:30pm Woodruff PE Center - Dance Studio"
   },
   {
-    "title": "CS Judo",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1292105648",
-    "event_id": "1292105648",
-    "description": "Saturday, September 6, 2025, 2 - 4pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+    "title": "BlaeZ Dance Team Audition",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293230313",
+    "event_id": "1293230313",
+    "description": "Saturday, September 6, 2025, 12 - 3pm Woodruff PE Center Aerobics Room"
   },
   {
     "title": "Aqua Fitness (Mariam)",
@@ -712,5 +700,23 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294449187",
     "event_id": "1294449187",
     "description": "Tuesday, September 2, 2025, 10 - 11:15am Woodruff PE Center Large class room"
+  },
+  {
+    "title": "Sports Medicine Meeting - JD",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288943643",
+    "event_id": "1288943643",
+    "description": "Wednesday, September 3, 2025, 9:30 - 11am Woodruff PE Center small class room"
+  },
+  {
+    "title": "PE 199 1 3588",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294449188",
+    "event_id": "1294449188",
+    "description": "Thursday, September 4, 2025, 10 - 11:15am Woodruff PE Center Large class room"
+  },
+  {
+    "title": "CS EGEWU",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290839302",
+    "event_id": "1290839302",
+    "description": "Friday, September 5, 2025, 4 - 6pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2"
   }
 ]
