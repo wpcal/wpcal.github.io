@@ -1,11 +1,5 @@
 [
   {
-    "title": "PE 162 1 3688",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285774228",
-    "event_id": "1285774228",
-    "description": "Wednesday, August 27, 2025, 10 - 11:15am Woodruff PE Center Aerobics Room"
-  },
-  {
     "title": "PE 192 1 3587",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285770394",
     "event_id": "1285770394",
@@ -736,5 +730,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288943643",
     "event_id": "1288943643",
     "description": "Wednesday, September 3, 2025, 9:30 - 11am Woodruff PE Center small class room"
+  },
+  {
+    "title": "PE 199 1 3588",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294449188",
+    "event_id": "1294449188",
+    "description": "Thursday, September 4, 2025, 10 - 11:15am Woodruff PE Center Large class room"
   }
 ]
