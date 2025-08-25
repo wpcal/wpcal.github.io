@@ -8,13 +8,13 @@ timezone = pytz.timezone('US/Eastern')
 
 # Operating hours for the facility
 OPERATING_HOURS = {
-    'Monday': ('7:00am', '8pm'),
-    'Tuesday': ('7:00am', '8pm'),
-    'Wednesday': ('7:00am', '8pm'),
-    'Thursday': ('7:00am', '8pm'),
-    'Friday': ('7:00am', '8pm'),
-    'Saturday': ('10am', '6pm'),
-    'Sunday': ('10am', '6pm')
+    'Monday': ('7am', '11pm'),
+    'Tuesday': ('7am', '11pm'),
+    'Wednesday': ('7am', '11pm'),
+    'Thursday': ('7am', '11pm'),
+    'Friday': ('7am', '8pm'),
+    'Saturday': ('8am', '8pm'),
+    'Sunday': ('8am', '8pm')
 }
 
 def parse_time(time_str, context_time_str=None):
