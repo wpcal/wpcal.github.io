@@ -1,12 +1,6 @@
 [
   {
     "title": "W Soccer Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1297101176",
-    "event_id": "1297101176",
-    "description": "Friday, August 22, 2025, 8 - 10am Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
-  },
-  {
-    "title": "W Soccer Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1297101178",
     "event_id": "1297101178",
     "description": "Saturday, August 23, 2025, 8 - 10am Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
@@ -802,5 +796,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288670882",
     "event_id": "1288670882",
     "description": "Monday, August 25, 2025, 11:30am - 12pm Woodruff PE Center Large class room"
+  },
+  {
+    "title": "Varsity Volleyball Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288943521",
+    "event_id": "1288943521",
+    "description": "Tuesday, August 26, 2025, 1 - 4pm Woodruff PE Center Auxillary Court"
   }
 ]
