@@ -1,11 +1,5 @@
 [
   {
-    "title": "DANC 121R 1 2749",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284760813",
-    "event_id": "1284760813",
-    "description": "Thursday, September 4, 2025, 10 - 11:15am Woodruff PE Center - Dance Studio"
-  },
-  {
     "title": "Men's Soccer Pregame",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1299194476",
     "event_id": "1299194476",
@@ -16,6 +10,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1292105648",
     "event_id": "1292105648",
     "description": "Saturday, September 6, 2025, 2 - 4pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "CS Women's Volleyball Tryouts",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1300057899",
+    "event_id": "1300057899",
+    "description": "Sunday, August 31, 2025, 6 - 8:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1"
   },
   {
     "title": "Men's Soccer Practice",
@@ -343,9 +343,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869138",
-    "event_id": "1290869138",
-    "description": "Friday, September 5, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869137",
+    "event_id": "1290869137",
+    "description": "Friday, September 5, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "DANC 123R 2 2756",
@@ -367,9 +367,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869137",
-    "event_id": "1290869137",
-    "description": "Friday, September 5, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869138",
+    "event_id": "1290869138",
+    "description": "Friday, September 5, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "Women's Soccer Practice",

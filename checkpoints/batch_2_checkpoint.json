@@ -570,10 +570,10 @@
     "description": "Thursday, August 28, 2025, 7:15 - 8:30pm Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
   },
   {
-    "title": "WTEN Captain's Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293004377",
-    "event_id": "1293004377",
-    "description": "Sunday, August 31, 2025, 10:30am - 12pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
+    "title": "WSOC Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1304151661",
+    "event_id": "1304151661",
+    "description": "Sunday, August 31, 2025, 8 - 10am Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2, Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
   },
   {
     "title": "Varsity Volleyball Practice",
@@ -613,8 +613,8 @@
   },
   {
     "title": "WTEN Captain's Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293004355",
-    "event_id": "1293004355",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293004377",
+    "event_id": "1293004377",
     "description": "Sunday, August 31, 2025, 10:30am - 12pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
   },
   {
@@ -654,10 +654,10 @@
     "description": "Saturday, September 6, 2025, 10:15 - 11:05am Woodruff PE Center Cycling Studio"
   },
   {
-    "title": "EBNSO Field Day",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293998385",
-    "event_id": "1293998385",
-    "description": "Sunday, August 31, 2025, 2 - 9pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2"
+    "title": "WTEN Captain's Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293004355",
+    "event_id": "1293004355",
+    "description": "Sunday, August 31, 2025, 10:30am - 12pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
   },
   {
     "title": "Varsity Volleyball Practice",
@@ -696,10 +696,10 @@
     "description": "Saturday, September 6, 2025, 10:30 - 11:30am Woodruff PE Center Court #2"
   },
   {
-    "title": "CS Men's Volleyball",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869134",
-    "event_id": "1290869134",
-    "description": "Sunday, August 31, 2025, 4:45 - 7:45pm Woodruff PE Center Court #3"
+    "title": "EBNSO Field Day",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293998385",
+    "event_id": "1293998385",
+    "description": "Sunday, August 31, 2025, 2 - 9pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2"
   },
   {
     "title": "Swim Team Meeting",
@@ -738,10 +738,10 @@
     "description": "Saturday, September 6, 2025, 10:30 - 11:30am Woodruff PE Center Court #2"
   },
   {
-    "title": "TNT Competition Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303127611",
-    "event_id": "1303127611",
-    "description": "Sunday, August 31, 2025, 6 - 7:45pm Woodruff PE Center - Dance Studio"
+    "title": "CS Men's Volleyball",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869134",
+    "event_id": "1290869134",
+    "description": "Sunday, August 31, 2025, 4:45 - 7:45pm Woodruff PE Center Court #3"
   },
   {
     "title": "Men's Tennis Practice",
@@ -780,10 +780,10 @@
     "description": "Saturday, September 6, 2025, 12 - 3pm Woodruff PE Center Aerobics Room"
   },
   {
-    "title": "CS Women's Volleyball Tryouts",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1300057899",
-    "event_id": "1300057899",
-    "description": "Sunday, August 31, 2025, 6 - 8:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1"
+    "title": "TNT Competition Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303127611",
+    "event_id": "1303127611",
+    "description": "Sunday, August 31, 2025, 6 - 7:45pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "Men's Tennis Practice",
@@ -802,5 +802,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291482269",
     "event_id": "1291482269",
     "description": "Wednesday, September 3, 2025, 10 - 11:15am Woodruff PE Center Large class room"
+  },
+  {
+    "title": "DANC 121R 1 2749",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284760813",
+    "event_id": "1284760813",
+    "description": "Thursday, September 4, 2025, 10 - 11:15am Woodruff PE Center - Dance Studio"
   }
 ]
