@@ -1,11 +1,5 @@
 [
   {
-    "title": "Swim/Dive Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288937358",
-    "event_id": "1288937358",
-    "description": "Wednesday, September 10, 2025, 2 - 5:45pm Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE Center Pool"
-  },
-  {
     "title": "PE 112 1 3611",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303082974",
     "event_id": "1303082974",
@@ -474,10 +468,10 @@
     "description": "Thursday, September 11, 2025, 5:30 - 7:15pm Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
   },
   {
-    "title": "CS Women's Volleyball",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290841416",
-    "event_id": "1290841416",
-    "description": "Monday, September 8, 2025, 7 - 9:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1"
+    "title": "CS Athletic Training Clinic",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1304981256",
+    "event_id": "1304981256",
+    "description": "Monday, September 8, 2025, 7 - 9pm Woodruff PE Center small class room"
   },
   {
     "title": "CS Badminton",
@@ -498,10 +492,10 @@
     "description": "Thursday, September 11, 2025, 5:30 - 6:20pm Woodruff PE Center Aerobics Room"
   },
   {
-    "title": "Vibez Emory Dance Troupe Auditions",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298821210",
-    "event_id": "1298821210",
-    "description": "Monday, September 8, 2025, 7 - 9pm Woodruff PE Center Aerobics Room"
+    "title": "CS Women's Volleyball",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290841416",
+    "event_id": "1290841416",
+    "description": "Monday, September 8, 2025, 7 - 9:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1"
   },
   {
     "title": "Emory Karma Bhangra Auditions",
@@ -522,10 +516,10 @@
     "description": "Thursday, September 11, 2025, 6 - 8pm Woodruff PE Center Auxillary Court, Woodruff PE Center Auxillary Court 2, Woodruff PE Center Auxillary Court 1"
   },
   {
-    "title": "EDC Rehearsals",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682268",
-    "event_id": "1298682268",
-    "description": "Monday, September 8, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
+    "title": "Vibez Emory Dance Troupe Auditions",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298821210",
+    "event_id": "1298821210",
+    "description": "Monday, September 8, 2025, 7 - 9pm Woodruff PE Center Aerobics Room"
   },
   {
     "title": "CS Tennis",
@@ -546,10 +540,10 @@
     "description": "Thursday, September 11, 2025, 6:30 - 9:30pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2"
   },
   {
-    "title": "Emory Karma Bhangra Auditions",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302710219",
-    "event_id": "1302710219",
-    "description": "Monday, September 8, 2025, 9 - 10:30pm Woodruff PE Center - Dance Studio"
+    "title": "EDC Rehearsals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682268",
+    "event_id": "1298682268",
+    "description": "Monday, September 8, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "CS Swimming",
@@ -568,6 +562,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291624036",
     "event_id": "1291624036",
     "description": "Thursday, September 11, 2025, 6:30 - 8:30pm Woodruff PE Center Pool diving well / deep end"
+  },
+  {
+    "title": "Emory Karma Bhangra Auditions",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302710219",
+    "event_id": "1302710219",
+    "description": "Monday, September 8, 2025, 9 - 10:30pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "CS Fencing",
@@ -1654,5 +1654,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291756551",
     "event_id": "1291756551",
     "description": "Monday, September 15, 2025, 6 - 7:30pm Woodruff PE Center Candler Field #3"
+  },
+  {
+    "title": "Men's Tennis Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257274",
+    "event_id": "1302257274",
+    "description": "Tuesday, September 16, 2025, 4:30 - 6:30pm Woodruff PE Center Indoor Tennis court #7 (roof), Woodruff PE Center Indoor Tennis court #8 (roof), Woodruff PE Center Indoor Tennis court #9 (roof), Woodruff PE Center Indoor Tennis court #10 (roof), Woodruff PE Center Indoor Tennis Court  #11,…"
   }
 ]

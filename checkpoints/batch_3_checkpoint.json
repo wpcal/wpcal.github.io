@@ -1,15 +1,15 @@
 [
   {
-    "title": "9v9 Soccer",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1286522984",
-    "event_id": "1286522984",
-    "description": "Wednesday, September 24, 2025, 7:30 - 10:30pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2, Woodruff P.E. Center Kaminsky Park"
-  },
-  {
     "title": "CS Men's Basketball",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1300379290",
     "event_id": "1300379290",
     "description": "Thursday, September 25, 2025, 6 - 8pm Woodruff PE Center Auxillary Court, Woodruff PE Center Auxillary Court 2, Woodruff PE Center Auxillary Court 1"
+  },
+  {
+    "title": "EDC Rehearsals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682293",
+    "event_id": "1298682293",
+    "description": "Monday, September 22, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "CS Badminton",
@@ -1350,10 +1350,10 @@
     "description": "Thursday, October 2, 2025, 5:30 - 7:15pm Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
   },
   {
-    "title": "CS Women's Volleyball",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290841424",
-    "event_id": "1290841424",
-    "description": "Monday, September 29, 2025, 7 - 9:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1"
+    "title": "CS Athletic Training Clinic",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1304981259",
+    "event_id": "1304981259",
+    "description": "Monday, September 29, 2025, 7 - 9pm Woodruff PE Center small class room"
   },
   {
     "title": "CS Men's Basketball",
@@ -1374,10 +1374,10 @@
     "description": "Thursday, October 2, 2025, 5:30 - 7pm Woodruff PE Center Large class room"
   },
   {
-    "title": "EDC Rehearsals",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682305",
-    "event_id": "1298682305",
-    "description": "Monday, September 29, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
+    "title": "CS Women's Volleyball",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290841424",
+    "event_id": "1290841424",
+    "description": "Monday, September 29, 2025, 7 - 9:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1"
   },
   {
     "title": "9v9 Soccer",
@@ -1396,6 +1396,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293159615",
     "event_id": "1293159615",
     "description": "Thursday, October 2, 2025, 5:30 - 6:20pm Woodruff PE Center Aerobics Room"
+  },
+  {
+    "title": "EDC Rehearsals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682305",
+    "event_id": "1298682305",
+    "description": "Monday, September 29, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "CS Badminton",
