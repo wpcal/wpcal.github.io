@@ -1,11 +1,5 @@
 [
   {
-    "title": "PE 191 1 3609",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285773886",
-    "event_id": "1285773886",
-    "description": "Monday, September 8, 2025, 4 - 5:15pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
-  },
-  {
     "title": "WTEN Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294203074",
     "event_id": "1294203074",
@@ -25,9 +19,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869146",
-    "event_id": "1290869146",
-    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869145",
+    "event_id": "1290869145",
+    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "Align & Flow Yoga (Stacy)",
@@ -55,9 +49,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869145",
-    "event_id": "1290869145",
-    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869146",
+    "event_id": "1290869146",
+    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "Women's Soccer Practice",
@@ -1816,5 +1810,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303593035",
     "event_id": "1303593035",
     "description": "Monday, September 15, 2025, 6:45 - 8:45pm Woodruff PE Center Aerobics Room"
+  },
+  {
+    "title": "EDC Masterclass/Rehearsal",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1299124594",
+    "event_id": "1299124594",
+    "description": "Tuesday, September 16, 2025, 5:30 - 7:30pm Woodruff PE Center - Dance Studio"
   }
 ]
