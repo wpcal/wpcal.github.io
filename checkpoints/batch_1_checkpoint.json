@@ -1620,12 +1620,6 @@
     "description": "Thursday, September 18, 2025, 4 - 5pm "
   },
   {
-    "title": "HSA Garba",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1305575610",
-    "event_id": "1305575610",
-    "description": "Friday, September 19, 2025, 8:30 - 11pm Woodruff PE Center Mcdonough Field, Woodruff PE Center Mcdonough Stage"
-  },
-  {
     "title": "Feel Good Yoga (Martine)",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293151673",
     "event_id": "1293151673",
@@ -1822,5 +1816,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303593035",
     "event_id": "1303593035",
     "description": "Monday, September 15, 2025, 6:45 - 8:45pm Woodruff PE Center Aerobics Room"
+  },
+  {
+    "title": "EDC Masterclass/Rehearsal",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1299124594",
+    "event_id": "1299124594",
+    "description": "Tuesday, September 16, 2025, 5:30 - 7:30pm Woodruff PE Center - Dance Studio"
   }
 ]
