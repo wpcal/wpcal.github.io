@@ -1,11 +1,5 @@
 [
   {
-    "title": "CS Men's Basketball",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1300379289",
-    "event_id": "1300379289",
-    "description": "Tuesday, September 23, 2025, 6 - 8pm Woodruff PE Center Auxillary Court, Woodruff PE Center Auxillary Court 2, Woodruff PE Center Auxillary Court 1"
-  },
-  {
     "title": "9v9 Soccer",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1286522984",
     "event_id": "1286522984",
@@ -18,10 +12,10 @@
     "description": "Thursday, September 25, 2025, 6:30 - 9:30pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2"
   },
   {
-    "title": "Savera Dance Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307679091",
-    "event_id": "1307679091",
-    "description": "Monday, September 22, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
+    "title": "EDC Rehearsals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682293",
+    "event_id": "1298682293",
+    "description": "Monday, September 22, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "9v9 Soccer",
@@ -43,8 +37,8 @@
   },
   {
     "title": "Savera Dance Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307681089",
-    "event_id": "1307681089",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307679091",
+    "event_id": "1307679091",
     "description": "Monday, September 22, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
   },
   {
@@ -64,6 +58,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869157",
     "event_id": "1290869157",
     "description": "Thursday, September 25, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+  },
+  {
+    "title": "Savera Dance Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307681089",
+    "event_id": "1307681089",
+    "description": "Monday, September 22, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
   },
   {
     "title": "CS Badminton",

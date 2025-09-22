@@ -1,11 +1,5 @@
 [
   {
-    "title": "WTEN Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294203194",
-    "event_id": "1294203194",
-    "description": "Tuesday, September 9, 2025, 2:30 - 4:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
-  },
-  {
     "title": "Men's Soccer Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302424396",
     "event_id": "1302424396",
@@ -19,9 +13,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869145",
-    "event_id": "1290869145",
-    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869146",
+    "event_id": "1290869146",
+    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "Women's Soccer Practice",
@@ -49,9 +43,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869146",
-    "event_id": "1290869146",
-    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869145",
+    "event_id": "1290869145",
+    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "Feel Good Yoga (Martine)",
@@ -1858,5 +1852,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1292105654",
     "event_id": "1292105654",
     "description": "Monday, September 15, 2025, 7 - 9pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
+    "title": "Total Body Burn (Amanda)",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293159601",
+    "event_id": "1293159601",
+    "description": "Tuesday, September 16, 2025, 5:30 - 6:20pm Woodruff PE Center Aerobics Room"
   }
 ]
