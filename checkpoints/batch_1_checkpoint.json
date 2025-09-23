@@ -1,11 +1,5 @@
 [
   {
-    "title": "Men's Soccer Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302424396",
-    "event_id": "1302424396",
-    "description": "Wednesday, September 10, 2025, 3 - 5pm Woodruff PE Center Soccer Field"
-  },
-  {
     "title": "WTEN Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294203076",
     "event_id": "1294203076",
@@ -13,9 +7,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869146",
-    "event_id": "1290869146",
-    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869145",
+    "event_id": "1290869145",
+    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "Women's Soccer Practice",
@@ -43,9 +37,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869145",
-    "event_id": "1290869145",
-    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869146",
+    "event_id": "1290869146",
+    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "Feel Good Yoga (Martine)",
@@ -1864,5 +1858,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1299124595",
     "event_id": "1299124595",
     "description": "Wednesday, September 17, 2025, 5:30 - 9pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "Align & Flow Yoga (Stacy)",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293151681",
+    "event_id": "1293151681",
+    "description": "Thursday, September 18, 2025, 4:30 - 5:20pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   }
 ]
