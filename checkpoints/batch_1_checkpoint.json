@@ -1,15 +1,9 @@
 [
   {
-    "title": "WTEN Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294203076",
-    "event_id": "1294203076",
-    "description": "Thursday, September 11, 2025, 2:30 - 4:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
-  },
-  {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869145",
-    "event_id": "1290869145",
-    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869146",
+    "event_id": "1290869146",
+    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "Women's Soccer Practice",
@@ -37,9 +31,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869146",
-    "event_id": "1290869146",
-    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869145",
+    "event_id": "1290869145",
+    "description": "Friday, September 12, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "Feel Good Yoga (Martine)",
@@ -1870,5 +1864,17 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291622094",
     "event_id": "1291622094",
     "description": "Monday, September 15, 2025, 7 - 8:30pm Woodruff PE Center Auxillary Court 1"
+  },
+  {
+    "title": "CS Men's Basketball",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1300379287",
+    "event_id": "1300379287",
+    "description": "Tuesday, September 16, 2025, 6 - 8pm Woodruff PE Center Auxillary Court, Woodruff PE Center Auxillary Court 2, Woodruff PE Center Auxillary Court 1"
+  },
+  {
+    "title": "Mat Pilates (Savvy)",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293159602",
+    "event_id": "1293159602",
+    "description": "Wednesday, September 17, 2025, 5:30 - 6:20pm Woodruff PE Center Aerobics Room"
   }
 ]
