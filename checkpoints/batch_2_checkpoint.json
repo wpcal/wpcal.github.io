@@ -1,11 +1,5 @@
 [
   {
-    "title": "PM Pedal (Kristin)",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293150951",
-    "event_id": "1293150951",
-    "description": "Thursday, September 18, 2025, 4:30 - 5:20pm Woodruff PE Center Cycling Studio"
-  },
-  {
     "title": "Eagle Edge",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293150908",
     "event_id": "1293150908",
@@ -1411,9 +1405,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869160",
-    "event_id": "1290869160",
-    "description": "Friday, September 26, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869159",
+    "event_id": "1290869159",
+    "description": "Friday, September 26, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "Choreography I",
@@ -1441,9 +1435,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869159",
-    "event_id": "1290869159",
-    "description": "Friday, September 26, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869160",
+    "event_id": "1290869160",
+    "description": "Friday, September 26, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "Align & Flow Yoga (Stacy)",
@@ -1876,5 +1870,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307395459",
     "event_id": "1307395459",
     "description": "Thursday, September 25, 2025, 5:30 - 7pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "Savera Dance Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307679091",
+    "event_id": "1307679091",
+    "description": "Monday, September 22, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
   }
 ]
