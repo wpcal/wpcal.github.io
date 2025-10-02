@@ -1,11 +1,5 @@
 [
   {
-    "title": "WTEN Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294203098",
-    "event_id": "1294203098",
-    "description": "Friday, October 17, 2025, 4:15 - 6pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
-  },
-  {
     "title": "CS Cycle and Tri",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1310558726",
     "event_id": "1310558726",
@@ -1776,10 +1770,10 @@
     "description": "Tuesday, October 21, 2025, 6 - 8pm Woodruff PE Center Mcdonough Field, Woodruff PE Center Mcdonough Stage"
   },
   {
-    "title": "Emory Suri Rehearsal",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303424807",
-    "event_id": "1303424807",
-    "description": "Wednesday, October 22, 2025, 7 - 9pm Woodruff PE Center Aerobics Room"
+    "title": "Fitness Attendant Makeup Meeting",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1319416138",
+    "event_id": "1319416138",
+    "description": "Wednesday, October 22, 2025, 7 - 8pm Woodruff PE Center 2nd conference room"
   },
   {
     "title": "Total Body Burn (Amanda)",
@@ -1800,10 +1794,10 @@
     "description": "Tuesday, October 21, 2025, 6 - 8pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
   },
   {
-    "title": "CS Men's Volleyball",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869180",
-    "event_id": "1290869180",
-    "description": "Wednesday, October 22, 2025, 7:30 - 10pm Woodruff PE Center Court #3, Woodruff PE Center Court #4"
+    "title": "Emory Suri Rehearsal",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303424807",
+    "event_id": "1303424807",
+    "description": "Wednesday, October 22, 2025, 7 - 9pm Woodruff PE Center Aerobics Room"
   },
   {
     "title": "Swoop's Therapeutic Thursday",
@@ -1824,10 +1818,10 @@
     "description": "Tuesday, October 21, 2025, 6 - 8pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
   },
   {
-    "title": "Break Emory Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303568060",
-    "event_id": "1303568060",
-    "description": "Wednesday, October 22, 2025, 8 - 10pm Woodruff PE Center Racquetball court #2"
+    "title": "CS Men's Volleyball",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869180",
+    "event_id": "1290869180",
+    "description": "Wednesday, October 22, 2025, 7:30 - 10pm Woodruff PE Center Court #3, Woodruff PE Center Court #4"
   },
   {
     "title": "CS Ultimate",
@@ -1848,15 +1842,21 @@
     "description": "Tuesday, October 21, 2025, 6 - 8pm Woodruff PE Center Auxillary Court, Woodruff PE Center Auxillary Court 2, Woodruff PE Center Auxillary Court 1"
   },
   {
-    "title": "CS Judo",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1292105675",
-    "event_id": "1292105675",
-    "description": "Wednesday, October 22, 2025, 8 - 10pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+    "title": "Break Emory Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303568060",
+    "event_id": "1303568060",
+    "description": "Wednesday, October 22, 2025, 8 - 10pm Woodruff PE Center Racquetball court #2"
   },
   {
     "title": "CS Men's Basketball",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1300379296",
     "event_id": "1300379296",
     "description": "Thursday, October 23, 2025, 6:30 - 8:30pm Woodruff PE Center Auxillary Court, Woodruff PE Center Auxillary Court 2, Woodruff PE Center Auxillary Court 1"
+  },
+  {
+    "title": "Savera Dance Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307681096",
+    "event_id": "1307681096",
+    "description": "Monday, October 20, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
   }
 ]
