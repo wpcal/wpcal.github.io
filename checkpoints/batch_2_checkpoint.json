@@ -1,5 +1,11 @@
 [
   {
+    "title": "WTEN Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294203098",
+    "event_id": "1294203098",
+    "description": "Friday, October 17, 2025, 4:15 - 6pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
+  },
+  {
     "title": "CS Cycle and Tri",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1310558726",
     "event_id": "1310558726",
@@ -310,6 +316,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307741141",
     "event_id": "1307741141",
     "description": "Thursday, October 16, 2025, 7 - 9pm Woodruff PE Center Large class room"
+  },
+  {
+    "title": "Eagle Edge CHEM 150 Review Session",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1319249903",
+    "event_id": "1319249903",
+    "description": "Thursday, October 16, 2025, 7 - 8pm Woodruff PE Center small class room"
   },
   {
     "title": "CS Fencing",
@@ -1291,9 +1303,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869183",
-    "event_id": "1290869183",
-    "description": "Friday, October 24, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869184",
+    "event_id": "1290869184",
+    "description": "Friday, October 24, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "Choreography I",
@@ -1321,9 +1333,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869184",
-    "event_id": "1290869184",
-    "description": "Friday, October 24, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869183",
+    "event_id": "1290869183",
+    "description": "Friday, October 24, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "MBB Blue Grey Scrimmage",
@@ -1846,11 +1858,5 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1300379296",
     "event_id": "1300379296",
     "description": "Thursday, October 23, 2025, 6:30 - 8:30pm Woodruff PE Center Auxillary Court, Woodruff PE Center Auxillary Court 2, Woodruff PE Center Auxillary Court 1"
-  },
-  {
-    "title": "Savera Dance Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307681096",
-    "event_id": "1307681096",
-    "description": "Monday, October 20, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
   }
 ]
