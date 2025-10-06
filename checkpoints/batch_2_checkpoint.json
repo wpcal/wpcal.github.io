@@ -1,11 +1,5 @@
 [
   {
-    "title": "Athletics & Recreation Leadership Mtg",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1300379559",
-    "event_id": "1300379559",
-    "description": "Wednesday, October 15, 2025, 1 - 3pm Woodruff PE Center small class room"
-  },
-  {
     "title": "PE 112 1 3611",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303082983",
     "event_id": "1303082983",
@@ -1858,5 +1852,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1310558175",
     "event_id": "1310558175",
     "description": "Tuesday, October 21, 2025, 6:30 - 7:30pm Woodruff PE Center Large class room"
+  },
+  {
+    "title": "CS Judo",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1292105675",
+    "event_id": "1292105675",
+    "description": "Wednesday, October 22, 2025, 8 - 10pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   }
 ]
