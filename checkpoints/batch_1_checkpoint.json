@@ -1,11 +1,5 @@
 [
   {
-    "title": "Coaches Meeting",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290259825",
-    "event_id": "1290259825",
-    "description": "Wednesday, October 8, 2025, 10 - 11:30am "
-  },
-  {
     "title": "PE 199 1 3588",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294449198",
     "event_id": "1294449198",
@@ -1888,5 +1882,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1294203098",
     "event_id": "1294203098",
     "description": "Friday, October 17, 2025, 4:15 - 6pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
+  },
+  {
+    "title": "W Soccer v NYU",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302424444",
+    "event_id": "1302424444",
+    "description": "Saturday, October 18, 2025, 1:30 - 3:30pm Woodruff PE Center Outdoor track, Woodruff PE Center Soccer Field"
   }
 ]
