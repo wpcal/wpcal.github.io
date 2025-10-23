@@ -1,11 +1,5 @@
 [
   {
-    "title": "Events Meeting",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1288670891",
-    "event_id": "1288670891",
-    "description": "Monday, October 6, 2025, 10 - 10:30am Woodruff PE Center Large class room"
-  },
-  {
     "title": "DANC 121R 1 2749",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1284760822",
     "event_id": "1284760822",
@@ -1948,5 +1942,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1248425716",
     "event_id": "1248425716",
     "description": "Wednesday, October 15, 2025, 2:30 - 3:45pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "PE 194 2 3617",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285773938",
+    "event_id": "1285773938",
+    "description": "Thursday, October 16, 2025, 2:30 - 3:45pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   }
 ]
