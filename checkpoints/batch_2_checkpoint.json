@@ -1,11 +1,5 @@
 [
   {
-    "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257045",
-    "event_id": "1302257045",
-    "description": "Wednesday, October 15, 2025, 2:30 - 4:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
-  },
-  {
     "title": "DANC 123R 2 2756",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285069827",
     "event_id": "1285069827",
@@ -429,7 +423,7 @@
     "title": "PE 167 5 3646",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285774333",
     "event_id": "1285774333",
-    "description": "Description not found."
+    "description": "Thursday, October 23, 2025, 8:30 - 9:45am Woodruff PE Center Aerobics Room"
   },
   {
     "title": "Women's Tennis Individuals",
@@ -1435,9 +1429,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869184",
-    "event_id": "1290869184",
-    "description": "Friday, October 24, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869183",
+    "event_id": "1290869183",
+    "description": "Friday, October 24, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "Feel Good Yoga (Martine)",
@@ -1465,9 +1459,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869183",
-    "event_id": "1290869183",
-    "description": "Friday, October 24, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869184",
+    "event_id": "1290869184",
+    "description": "Friday, October 24, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "WERQ Dance Fitness (Christy)",
@@ -1954,5 +1948,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1318357660",
     "event_id": "1318357660",
     "description": "Tuesday, October 21, 2025, 7 - 8pm Woodruff PE Center Pool shallow end"
+  },
+  {
+    "title": "CS Baseball",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291622291",
+    "event_id": "1291622291",
+    "description": "Wednesday, October 22, 2025, 8 - 10pm Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
   }
 ]
