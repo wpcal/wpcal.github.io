@@ -1,11 +1,5 @@
 [
   {
-    "title": "Savera Dance Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307681104",
-    "event_id": "1307681104",
-    "description": "Sunday, November 9, 2025, 6 - 7:45pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
-  },
-  {
     "title": "Choreography I",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1308170190",
     "event_id": "1308170190",
@@ -1561,9 +1555,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869213",
-    "event_id": "1290869213",
-    "description": "Friday, November 21, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869212",
+    "event_id": "1290869212",
+    "description": "Friday, November 21, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "Emory Suri Rehearsal",
@@ -1597,9 +1591,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869212",
-    "event_id": "1290869212",
-    "description": "Friday, November 21, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869213",
+    "event_id": "1290869213",
+    "description": "Friday, November 21, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "11v11 Soccer IM",
@@ -2196,10 +2190,10 @@
     "description": "Monday, November 17, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
   },
   {
-    "title": "CS Tennis",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291622662",
-    "event_id": "1291622662",
-    "description": "Tuesday, November 18, 2025, 7 - 8:30pm Woodruff PE Center All Indoor Tennis courts"
+    "title": "Stretch and Reflect Yoga w/ NAACP",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1334754884",
+    "event_id": "1334754884",
+    "description": "Tuesday, November 18, 2025, 6:30 - 8pm Woodruff PE Center Aerobics Room"
   },
   {
     "title": "Emory Suri Rehearsal",
@@ -2214,10 +2208,10 @@
     "description": "Thursday, November 20, 2025, 6:30 - 9:30pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2"
   },
   {
-    "title": "CS Cycle and Tri",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1318357664",
-    "event_id": "1318357664",
-    "description": "Tuesday, November 18, 2025, 7 - 8pm Woodruff PE Center Pool shallow end"
+    "title": "CS Tennis",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291622662",
+    "event_id": "1291622662",
+    "description": "Tuesday, November 18, 2025, 7 - 8:30pm Woodruff PE Center All Indoor Tennis courts"
   },
   {
     "title": "CS Men's Volleyball",
@@ -2232,10 +2226,10 @@
     "description": "Thursday, November 20, 2025, 6:30 - 8:30pm Woodruff PE Center Auxillary Court, Woodruff PE Center Auxillary Court 2, Woodruff PE Center Auxillary Court 1"
   },
   {
-    "title": "CS Swimming",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291624127",
-    "event_id": "1291624127",
-    "description": "Tuesday, November 18, 2025, 7 - 8:30pm Woodruff PE Center Pool lap lane"
+    "title": "CS Cycle and Tri",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1318357664",
+    "event_id": "1318357664",
+    "description": "Tuesday, November 18, 2025, 7 - 8pm Woodruff PE Center Pool shallow end"
   },
   {
     "title": "Break Emory Practice",
@@ -2250,9 +2244,15 @@
     "description": "Thursday, November 20, 2025, 6:30 - 8:30pm Woodruff PE Center Pool diving well / deep end"
   },
   {
-    "title": "CS Fencing",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869208",
-    "event_id": "1290869208",
-    "description": "Tuesday, November 18, 2025, 7 - 9pm Woodruff PE Center Court #4"
+    "title": "CS Swimming",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291624127",
+    "event_id": "1291624127",
+    "description": "Tuesday, November 18, 2025, 7 - 8:30pm Woodruff PE Center Pool lap lane"
+  },
+  {
+    "title": "CS Judo",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1292105695",
+    "event_id": "1292105695",
+    "description": "Wednesday, November 19, 2025, 8 - 10pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   }
 ]
