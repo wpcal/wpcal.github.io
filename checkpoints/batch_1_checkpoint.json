@@ -1,11 +1,5 @@
 [
   {
-    "title": "PE 167 2 3604",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285774363",
-    "event_id": "1285774363",
-    "description": "Thursday, November 6, 2025, 11:30am - 12:45pm Woodruff PE Center Aerobics Room"
-  },
-  {
     "title": "Men's Tennis Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257065",
     "event_id": "1302257065",
@@ -2257,9 +2251,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869204",
-    "event_id": "1290869204",
-    "description": "Friday, November 14, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869205",
+    "event_id": "1290869205",
+    "description": "Friday, November 14, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "Savera Dance Practice",
@@ -2280,10 +2274,10 @@
     "description": "Tuesday, November 11, 2025, 2:30 - 4:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
   },
   {
-    "title": "Men's Soccer Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302424478",
-    "event_id": "1302424478",
-    "description": "Wednesday, November 12, 2025, 3 - 5pm Woodruff PE Center Soccer Field"
+    "title": "MSOC Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1336418973",
+    "event_id": "1336418973",
+    "description": "Wednesday, November 12, 2025, 3 - 5pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2, Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
   },
   {
     "title": "Tennis Captain's Practice",
@@ -2293,8 +2287,14 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869205",
-    "event_id": "1290869205",
-    "description": "Friday, November 14, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869204",
+    "event_id": "1290869204",
+    "description": "Friday, November 14, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+  },
+  {
+    "title": "MBB Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1313833347",
+    "event_id": "1313833347",
+    "description": "Monday, November 10, 2025, 4 - 6:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
   }
 ]
