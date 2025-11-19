@@ -1,11 +1,5 @@
 [
   {
-    "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257065",
-    "event_id": "1302257065",
-    "description": "Friday, November 7, 2025, 2:15 - 4:15pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
-  },
-  {
     "title": "TNT Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303524633",
     "event_id": "1303524633",
@@ -2245,9 +2239,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869205",
-    "event_id": "1290869205",
-    "description": "Friday, November 14, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869204",
+    "event_id": "1290869204",
+    "description": "Friday, November 14, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "Choreography I",
@@ -2275,9 +2269,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869204",
-    "event_id": "1290869204",
-    "description": "Friday, November 14, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869205",
+    "event_id": "1290869205",
+    "description": "Friday, November 14, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "MBB Practice",
@@ -2302,5 +2296,17 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1325134962",
     "event_id": "1325134962",
     "description": "Thursday, November 13, 2025, 3 - 4:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
+  },
+  {
+    "title": "Emory Ballroom Dance Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303593050",
+    "event_id": "1303593050",
+    "description": "Friday, November 14, 2025, 6:45 - 8:45pm Woodruff PE Center Aerobics Room"
+  },
+  {
+    "title": "Align & Flow Yoga (Stacy)",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293159644",
+    "event_id": "1293159644",
+    "description": "Monday, November 10, 2025, 4:30 - 5:20pm Woodruff PE Center Aerobics Room"
   }
 ]
