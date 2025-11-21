@@ -1,11 +1,5 @@
 [
   {
-    "title": "WSOC Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1336418972",
-    "event_id": "1336418972",
-    "description": "Tuesday, November 11, 2025, 3 - 4:30pm Woodruff  PE Center Candler Field #1, Woodruff PE Center Candler Field #2, Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
-  },
-  {
     "title": "PE 191 1 3609",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285773976",
     "event_id": "1285773976",
@@ -2308,5 +2302,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1327352165",
     "event_id": "1327352165",
     "description": "Wednesday, November 19, 2025, 7 - 8pm Woodruff PE Center 2nd conference room"
+  },
+  {
+    "title": "CS Badminton",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869210",
+    "event_id": "1290869210",
+    "description": "Thursday, November 20, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   }
 ]
