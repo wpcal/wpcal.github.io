@@ -1,11 +1,5 @@
 [
   {
-    "title": "Tennis Captain's Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1325134962",
-    "event_id": "1325134962",
-    "description": "Thursday, November 13, 2025, 3 - 4:30pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
-  },
-  {
     "title": "Emory Ballroom Dance Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303593050",
     "event_id": "1303593050",
@@ -1597,9 +1591,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869212",
-    "event_id": "1290869212",
-    "description": "Friday, November 21, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869213",
+    "event_id": "1290869213",
+    "description": "Friday, November 21, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
   },
   {
     "title": "EDC Rehearsals",
@@ -1633,9 +1627,9 @@
   },
   {
     "title": "CS Badminton",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869213",
-    "event_id": "1290869213",
-    "description": "Friday, November 21, 2025, 6:30 - 9pm Woodruff PE Center Court #3"
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1290869212",
+    "event_id": "1290869212",
+    "description": "Friday, November 21, 2025, 6:30 - 9pm Woodruff PE Center Court #4"
   },
   {
     "title": "Saraas Practice",
@@ -2278,5 +2272,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291622310",
     "event_id": "1291622310",
     "description": "Tuesday, November 18, 2025, 7:15 - 8:30pm Woodruff PE Center Candler Field #3, Woodruff PE Center Candler Field #4"
+  },
+  {
+    "title": "Fitness Attendant Makeup Meeting",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1327352165",
+    "event_id": "1327352165",
+    "description": "Wednesday, November 19, 2025, 7 - 8pm Woodruff PE Center 2nd conference room"
   }
 ]
