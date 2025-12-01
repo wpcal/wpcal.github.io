@@ -1,6 +1,12 @@
 [
   {
     "title": "EKB Dance Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303424521",
+    "event_id": "1303424521",
+    "description": "Tuesday, December 2, 2025, 8 - 10pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "EKB Dance Practice",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303424522",
     "event_id": "1303424522",
     "description": "Thursday, December 4, 2025, 8 - 10pm Woodruff PE Center Aerobics Room"
@@ -138,10 +144,10 @@
     "description": "Thursday, December 11, 2025, 8 - 10:30am Woodruff PE Center Aerobics Room"
   },
   {
-    "title": "EDC Rehearsals",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682360",
-    "event_id": "1298682360",
-    "description": "Friday, December 12, 2025, 1 - 4:30pm Woodruff PE Center - Dance Studio"
+    "title": "FacOps & RecWell Holiday Potluck",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1342023841",
+    "event_id": "1342023841",
+    "description": "Friday, December 12, 2025, 11am - 1pm Woodruff PE Center Large class room"
   },
   {
     "title": "Pedal & Power (Cecilia)",
@@ -180,10 +186,10 @@
     "description": "Thursday, December 11, 2025, 11:30am - 2pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
   },
   {
-    "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257095",
-    "event_id": "1302257095",
-    "description": "Friday, December 12, 2025, 2:15 - 4:15pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
+    "title": "EDC Rehearsals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682360",
+    "event_id": "1298682360",
+    "description": "Friday, December 12, 2025, 1 - 4:30pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "CS Cycle and Tri",
@@ -223,8 +229,8 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257349",
-    "event_id": "1302257349",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257095",
+    "event_id": "1302257095",
     "description": "Friday, December 12, 2025, 2:15 - 4:15pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
   },
   {
@@ -256,6 +262,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1313468263",
     "event_id": "1313468263",
     "description": "Thursday, December 11, 2025, 11:30am - 2pm Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE Center Pool"
+  },
+  {
+    "title": "Men's Tennis Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257349",
+    "event_id": "1302257349",
+    "description": "Friday, December 12, 2025, 2:15 - 4:15pm Woodruff PE Center All Outdoor Tennis courts, Woodruff PE Center All Indoor Tennis courts"
   },
   {
     "title": "Captain's Practice",
@@ -736,11 +748,5 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1303424834",
     "event_id": "1303424834",
     "description": "Sunday, December 7, 2025, 5 - 7:45pm Woodruff PE Center Aerobics Room"
-  },
-  {
-    "title": "WERQ Dance Fitness (Christy)",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293159663",
-    "event_id": "1293159663",
-    "description": "Monday, December 8, 2025, 5:30 - 6:20pm Woodruff PE Center Aerobics Room"
   }
 ]
