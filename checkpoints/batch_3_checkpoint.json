@@ -138,28 +138,16 @@
     "description": "Monday, December 8, 2025, 7 - 9:30pm Woodruff PE Center Court #2, Woodruff PE Center Court #1"
   },
   {
-    "title": "SPC Holiday Event",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1316082288",
-    "event_id": "1316082288",
-    "description": "Tuesday, December 9, 2025, 6 - 9pm Woodruff PE Center Mcdonough Field, Woodruff PE Center Mcdonough Stage"
-  },
-  {
-    "title": "EDC Rehearsals",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682358",
-    "event_id": "1298682358",
-    "description": "Monday, December 8, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
-  },
-  {
     "title": "CS Men's Basketball",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1300379307",
     "event_id": "1300379307",
     "description": "Tuesday, December 9, 2025, 6 - 8pm Woodruff PE Center Auxillary Court, Woodruff PE Center Auxillary Court 2, Woodruff PE Center Auxillary Court 1"
   },
   {
-    "title": "Savera Dance Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307679116",
-    "event_id": "1307679116",
-    "description": "Monday, December 8, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
+    "title": "EDC Rehearsals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682358",
+    "event_id": "1298682358",
+    "description": "Monday, December 8, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "CS/IM Meeting",
@@ -169,8 +157,8 @@
   },
   {
     "title": "Savera Dance Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307681114",
-    "event_id": "1307681114",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307679116",
+    "event_id": "1307679116",
     "description": "Monday, December 8, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
   },
   {
@@ -178,6 +166,12 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291622674",
     "event_id": "1291622674",
     "description": "Tuesday, December 9, 2025, 7 - 8:30pm Woodruff PE Center All Indoor Tennis courts"
+  },
+  {
+    "title": "Savera Dance Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1307681114",
+    "event_id": "1307681114",
+    "description": "Monday, December 8, 2025, 9 - 10:45pm Woodruff PE Center Aerobics Room"
   },
   {
     "title": "CS Cycle and Tri",
