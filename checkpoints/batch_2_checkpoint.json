@@ -1,5 +1,11 @@
 [
   {
+    "title": "Muay Thai Club Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1305485913",
+    "event_id": "1305485913",
+    "description": "Tuesday, December 2, 2025, 9:30 - 10:45pm Woodruff PE Center multipurpose room, wrestling,aerobics,yoga,martial arts"
+  },
+  {
     "title": "Women's Basketball Meeting",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1341904554",
     "event_id": "1341904554",
@@ -564,10 +570,10 @@
     "description": "Wednesday, December 10, 2025, 6 - 7:30pm Woodruff PE Center Candler Field #3"
   },
   {
-    "title": "CS Swimming",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291624157",
-    "event_id": "1291624157",
-    "description": "Thursday, December 11, 2025, 7 - 8:30pm Woodruff PE Center Pool lap lane"
+    "title": "EDC Rehearsals",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682359",
+    "event_id": "1298682359",
+    "description": "Thursday, December 11, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "EECC Open Play",
@@ -592,12 +598,6 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291756633",
     "event_id": "1291756633",
     "description": "Wednesday, December 10, 2025, 6 - 7:30pm Woodruff PE Center Candler Field #4"
-  },
-  {
-    "title": "EDC Rehearsals",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1298682359",
-    "event_id": "1298682359",
-    "description": "Thursday, December 11, 2025, 7:30 - 9pm Woodruff PE Center - Dance Studio"
   },
   {
     "title": "EDC Rehearsals",
@@ -714,12 +714,6 @@
     "description": "Tuesday, December 9, 2025, 2:30 - 3:30pm Woodruff PE Center Large class room"
   },
   {
-    "title": "CS Swimming",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291624155",
-    "event_id": "1291624155",
-    "description": "Wednesday, December 10, 2025, 7 - 8:30pm Woodruff PE Center Pool lap lane"
-  },
-  {
     "title": "CS BJJ",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1292105704",
     "event_id": "1292105704",
@@ -730,5 +724,11 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1285069855",
     "event_id": "1285069855",
     "description": "Tuesday, December 9, 2025, 2:30 - 3:45pm Woodruff PE Center - Dance Studio"
+  },
+  {
+    "title": "CS Women's Basketball",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291622135",
+    "event_id": "1291622135",
+    "description": "Monday, December 8, 2025, 7 - 8:30pm Woodruff PE Center Auxillary Court 1"
   }
 ]
