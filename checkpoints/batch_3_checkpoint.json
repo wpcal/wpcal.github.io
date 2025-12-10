@@ -1,17 +1,5 @@
 [
   {
-    "title": "CS Women's Basketball",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291622135",
-    "event_id": "1291622135",
-    "description": "Monday, December 8, 2025, 7 - 8:30pm Woodruff PE Center Auxillary Court 1"
-  },
-  {
-    "title": "PM Pedal (Kristin)",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1293151002",
-    "event_id": "1293151002",
-    "description": "Tuesday, December 9, 2025, 4:30 - 5:20pm Woodruff PE Center Cycling Studio"
-  },
-  {
     "title": "CS Tennis",
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1291622673",
     "event_id": "1291622673",
@@ -606,10 +594,10 @@
     "description": "Saturday, January 3, 2026, 7 - 9am Woodruff PE Center Pool shallow end, Woodruff PE Center Pool lap lane, Woodruff PE Center Pool diving well / deep end, Woodruff PE Center Pool"
   },
   {
-    "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257108",
-    "event_id": "1302257108",
-    "description": "Sunday, December 28, 2025, 1 - 5pm Woodruff PE Center Indoor Tennis court #7 (roof), Woodruff PE Center Indoor Tennis court #8 (roof), Woodruff PE Center Indoor Tennis court #9 (roof), Woodruff PE Center Indoor Tennis court #10 (roof), Woodruff PE Center Indoor Tennis Court  #11,…"
+    "title": "Hampden-Sydney MBB Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1345108087",
+    "event_id": "1345108087",
+    "description": "Sunday, December 28, 2025, 12 - 2pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
   },
   {
     "title": "Emory Holiday Classic",
@@ -643,8 +631,8 @@
   },
   {
     "title": "Men's Tennis Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257362",
-    "event_id": "1302257362",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257108",
+    "event_id": "1302257108",
     "description": "Sunday, December 28, 2025, 1 - 5pm Woodruff PE Center Indoor Tennis court #7 (roof), Woodruff PE Center Indoor Tennis court #8 (roof), Woodruff PE Center Indoor Tennis court #9 (roof), Woodruff PE Center Indoor Tennis court #10 (roof), Woodruff PE Center Indoor Tennis Court  #11,…"
   },
   {
@@ -666,10 +654,10 @@
     "description": "Friday, January 2, 2026, 3:30 - 7pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4, Woodruff PE Center Arena Court"
   },
   {
-    "title": "MBB Practice",
-    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1339203326",
-    "event_id": "1339203326",
-    "description": "Sunday, December 28, 2025, 2 - 4pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
+    "title": "Men's Tennis Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257362",
+    "event_id": "1302257362",
+    "description": "Sunday, December 28, 2025, 1 - 5pm Woodruff PE Center Indoor Tennis court #7 (roof), Woodruff PE Center Indoor Tennis court #8 (roof), Woodruff PE Center Indoor Tennis court #9 (roof), Woodruff PE Center Indoor Tennis court #10 (roof), Woodruff PE Center Indoor Tennis Court  #11,…"
   },
   {
     "title": "Men's Tennis Practice",
@@ -682,6 +670,18 @@
     "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1302257364",
     "event_id": "1302257364",
     "description": "Tuesday, December 30, 2025, 4:30 - 6:30pm Woodruff PE Center Indoor Tennis court #7 (roof), Woodruff PE Center Indoor Tennis court #8 (roof), Woodruff PE Center Indoor Tennis court #9 (roof), Woodruff PE Center Indoor Tennis court #10 (roof), Woodruff PE Center Indoor Tennis Court  #11,…"
+  },
+  {
+    "title": "MBB Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1339203326",
+    "event_id": "1339203326",
+    "description": "Sunday, December 28, 2025, 2 - 4pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
+  },
+  {
+    "title": "Maryville MBB Practice",
+    "url": "https://25livepub.collegenet.com/calendars/25live-woodpec-cal?eventid=1345108088",
+    "event_id": "1345108088",
+    "description": "Sunday, December 28, 2025, 4 - 6pm Woodruff PE Center Court #2, Woodruff PE Center Court #1, Woodruff PE Center Court #3, Woodruff PE Center Court #4"
   },
   {
     "title": "WBB Practice",
